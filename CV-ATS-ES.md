@@ -8,7 +8,7 @@ Disponible para proyectos — tu partner durante el proyecto. En remoto (se acep
 
 ## Resumen Profesional
 
-Arquitecto de IA y Datos con más de 15 años de experiencia conectando las necesidades de negocio con la implementación integral de plataformas de datos para grandes corporaciones y negocios digitales de rápido crecimiento, liderando múltiples proyectos en paralelo y equipos multinacionales y multidisciplinares hacia objetivos comunes. Comencé en Oracle trabajando en data warehousing y BI, y amplié mi experiencia en entornos empresariales complejos en SDG Group. Durante los últimos 12+ años he trabajado a través de mi propio laboratorio de conocimiento práctico (Mind), liderando y entregando soluciones de datos de principio a fin. En los últimos dos años me he centrado en lo que de verdad mueve la aguja: desplegar IA práctica y monetizable dentro de las organizaciones — plataformas de datos modernas que habilitan la adopción de IA, el procesamiento en tiempo real y la analítica avanzada sobre arquitecturas serverless y cloud-native. Combino una sólida base técnica con visión estratégica para definir e implementar arquitecturas de datos escalables que dan soporte a iniciativas de IA y ML, además de construir culturas data-driven mediante gobierno del dato, democratización y prácticas ágiles.
+Arquitecto de IA y Datos con más de 15 años de experiencia conectando las necesidades de negocio con la implementación integral de plataformas de datos para grandes corporaciones y negocios digitales de rápido crecimiento, liderando múltiples proyectos en paralelo y equipos multinacionales y multidisciplinares hacia objetivos comunes. Comencé en Oracle trabajando en data warehousing y BI, y amplié mi experiencia en entornos empresariales complejos en SDG Group. Durante los últimos 12+ años he trabajado a través de mi propio laboratorio de conocimiento práctico (Mind), liderando y entregando soluciones de datos de principio a fin. En los últimos dos años me he centrado en lo que de verdad genera impacto: desplegar IA práctica y monetizable dentro de las organizaciones — plataformas de datos modernas que habilitan la adopción de IA, el procesamiento en tiempo real y la analítica avanzada sobre arquitecturas serverless y cloud-native. Combino una sólida base técnica con visión estratégica para definir e implementar arquitecturas de datos escalables que dan soporte a iniciativas de IA y ML, además de construir culturas data-driven mediante gobierno del dato, democratización y prácticas ágiles.
 
 ## Competencias Clave
 
@@ -36,7 +36,7 @@ Diciembre 2025 – Actualidad | Barcelona, España (Salud Digital)
 
 Dirección del área de datos y modernización del stack para habilitar la monetización y el despliegue de IA en la organización, en un contexto de salud digital / digitalización de procesos médicos.
 
-### Founder & Product Manager — Mind One y Qontexta.ai
+### Founder & Product Manager — Mind One (getmindapp.io) y Qontexta.ai (qontexta.ai)
 2025 – Actualidad
 
 Liderazgo end-to-end de dos productos propios de IA y datos, desde la visión y la definición de producto al desarrollo, lanzamiento y evolución continua.
@@ -44,7 +44,7 @@ Liderazgo end-to-end de dos productos propios de IA y datos, desde la visión y 
 ### Founder & Senior Data Engineer / Arquitecto — Mind (laboratorio de conocimiento práctico propio)
 Enero 2013 – Actualidad | Barcelona, España
 
-Mind es mi propio laboratorio de conocimiento práctico: proyectos, soluciones y productos alrededor del dato y la optimización de las organizaciones. Liderando proyectos de transformación de datos en travel, banca, retail, hostelería e industria con autonomía total sobre el diseño e implementación integral. En los últimos años, cada vez más centrado en arquitecturas listas para IA y adopción real de LLMs.
+Mind es mi propio laboratorio de conocimiento práctico y mi base: el lugar donde me mantengo a la vanguardia, pongo en práctica las soluciones más nuevas del mercado y las convierto en formas reales de llevar la IA a las organizaciones. Liderando proyectos de transformación de datos en travel, banca, retail, hostelería e industria con autonomía total sobre el diseño e implementación integral; en los últimos años, cada vez más centrado en arquitecturas listas para IA y adopción real de LLMs.
 
 Proyectos destacados:
 

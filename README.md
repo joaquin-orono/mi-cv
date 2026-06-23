@@ -91,7 +91,7 @@ I combine a solid technical background with a holistic, strategic view of the or
 
 Leading the data area and modernizing the stack to enable AI monetization and deployment across the organization (digital health / medical-process digitalization).
 
-### Founder & Product Manager — Mind One & Qontexta.ai
+### Founder & Product Manager — [Mind One](https://getmindapp.io) & [Qontexta.ai](https://qontexta.ai)
 `2025 – Present`
 
 End-to-end leadership of both AI & data products — from vision and product definition to development, launch and ongoing evolution.
@@ -99,7 +99,7 @@ End-to-end leadership of both AI & data products — from vision and product def
 ### Founder & Senior Data Engineer / Architect — Mind
 `2013 – Present`
 
-**Mind** is my own practical knowledge lab: projects, solutions and products built around data and organizational optimization. 12+ years with full autonomy leading end-to-end data transformations across travel, banking, retail, hospitality and industry — and, in recent years, AI-ready architectures and real LLM adoption.
+**Mind** is my own practical knowledge lab — my base for staying at the cutting edge, testing the newest solutions on the market and turning them into real ways to bring AI into organizations. 12+ years with full autonomy leading end-to-end data transformations across travel, banking, retail, hospitality and industry; in recent years, AI-ready architectures and real LLM adoption.
 
 ### Data & Analytics Engineer / Architect — SDG Consulting
 `2011 – 2012`
@@ -119,6 +119,26 @@ Grew from intern to Senior Consultant on data engineering, data warehouse modell
 <tr>
 <td width="50%" valign="top">
 
+**Mahou San Miguel** · FMCG · `2011/2012`
+*Data/BI Solution Architect*
+
+End-to-end Corporate Balanced Scorecard with **300+ KPIs** across ~20 dashboards (OBIEE, SQL Server, Essbase). Reported to CIO and CFO.
+**Result →** From manual Excel to centralized, automated performance management.
+
+</td>
+<td width="50%" valign="top">
+
+**Caixa Penedés** · Banking · `2005/2010`
+*ETL Developer*
+
+Commercial Data Warehouse with a snowflake model for client-margin analysis (Oracle Warehouse Builder + Business Objects), later integrated into the bank's core.
+**Result →** Client-margin analytics adopted into the bank's core systems.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 **Fergus Hotels** · Hospitality · `2026`
 *AI Deployment Lead*
 
@@ -128,51 +148,31 @@ Company-wide AI deployment, piloting **Claude** across sales, finance and operat
 </td>
 <td width="50%" valign="top">
 
-**Jumbogroup** · Industrial · `2026`
-*AI Architect*
+**Hotelbeds** · Travel · `2015/2017`
+*Data Architect*
 
-AI pilot in finance and sales combining **Power BI + Claude + AI self-service**.
-**Result →** Finance & sales teams autonomous, far less manual reporting.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**Hoteles Silken** · Hospitality · `2024/2025`
-*AI Data Architect / Data Engineer*
-
-AI data stack from scratch on GCP. AI assistant with **Claude + MCP over BigQuery** for real-time pricing, auto-applied to the channel manager. MLOps for demand forecasting.
-**Result →** Pricing recommended and applied in real time; data access democratized via conversational AI.
-
-</td>
-<td width="50%" valign="top">
-
-**Grupo Cursach** · Leisure · `2025`
-*AI Architect / Data Engineer*
-
-Financial data lake on GCP. AI agent (**Claude + MCP**) for conversational treasury analysis.
-**Result →** Treasury analyzed in natural language; Excel financial reports generated automatically.
+Hortonworks Big Data platform integrating SAP, Oracle and operational systems, with QlikView as transversal BI.
+**Result →** Consolidated end-to-end view of operations and finance.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**Marugal** · Hospitality · `2025/2026`
-*Lead Data Solution Architect*
+**Japan Tobacco International** · FMCG · `2013/2015`
+*Data & Analytics Solution Architect*
 
-Cloud DWH on BigQuery with end-to-end architecture across multiple source systems; BI on Qlik.
-**Result →** Scalable, governed analytics foundation aligned with the cloud-migration strategy.
+Global OBIEE BI rollout (TME) to **6,500+ users** across Europe, US & SE Asia.
+**Result →** Corporate BI standardized across 3 continents, replacing legacy tools.
 
 </td>
 <td width="50%" valign="top">
 
-**Banque Misr Digital** · Banking · `2021`
-*Big Data Solution Architect*
+**Brico Depôt Iberia** · Retail (Kingfisher) · `2020/2021`
+*Data Solution Architect*
 
-Real-time banking platform on **Cloudera** with **Kafka + Flink**, Impala DWH and HBase/Phoenix.
-**Result →** Real-time banking operations and analytics over **25 unified sources**.
+Serverless big-data architecture on GCP + Power BI with ML over SAP HANA Cloud, Magento and SQL.
+**Result →** Forecasting, segmentation and optimized inventory in production.
 
 </td>
 </tr>
@@ -183,12 +183,14 @@ Real-time banking platform on **Cloudera** with **Kafka + Flink**, Impala DWH an
 
 <br/>
 
-- **Travel Intelligence Engine** · Travel · `2019/2020` — *Data / AI Solution Architect.* Real-time, event-driven ML recommendation platform on GCP (Pub/Sub, Cloud Functions, BigQuery). Deployed across World2Meet, Abreu, TUI & Yalago. **Result:** measurable conversion uplift and sub-second response in production.
-- **Brico Depôt Iberia** · Retail (Kingfisher) · `2020/2021` — *Data Solution Architect.* Serverless big-data on GCP + Power BI; ML over SAP HANA, Magento & SQL. **Result:** forecasting, segmentation and optimized inventory in production.
-- **Schneider Electric** · Finance, France · `2022/2023` — *Global Finance Data Architect.* Collibra governance across ~60 systems (17 SAP ERP + Central Finance). **Result:** unified, automated P&L; governance conventions adopted org-wide.
+- **Jumbogroup** · Industrial · `2026` — *AI Architect.* AI pilot in finance and sales combining Power BI + Claude + AI self-service. **Result:** finance & sales teams autonomous, far less manual reporting.
+- **Marugal** · Hospitality · `2025/2026` — *Lead Data Solution Architect.* Cloud DWH on BigQuery with end-to-end architecture across multiple source systems; BI on Qlik. **Result:** scalable, governed analytics foundation aligned with the cloud-migration strategy.
+- **Hoteles Silken** · Hospitality · `2024/2025` — *AI Data Architect / Engineer.* AI data stack from scratch on GCP; assistant with Claude + MCP over BigQuery for real-time pricing, auto-applied to the channel manager; MLOps for demand forecasting. **Result:** pricing applied in real time; data democratized via conversational AI.
+- **Grupo Cursach** · Leisure · `2025` — *AI Architect / Data Engineer.* Financial data lake on GCP; AI agent (Claude + MCP) for conversational treasury analysis. **Result:** treasury analyzed in natural language; Excel reports generated automatically.
 - **JumboDiset** · Industrial · `2023/2024` — *Data Architect / Engineer.* End-to-end DWH & BI from scratch: PostgreSQL, Jedox EPM, dbt, Power BI. **Result:** first centralized analytics foundation for the group.
-- **Japan Tobacco International** · FMCG · `2013/2015` — *Data & Analytics Solution Architect.* Global OBIEE BI rollout (TME), 6,500+ users across Europe, US & SE Asia. **Result:** corporate BI standardized across 3 continents, replacing legacy tools.
-- **Hotelbeds** · Travel · `2015/2017` — *Data Architect.* Oracle BI Publisher + QlikView, then a Hortonworks Big Data platform integrating SAP, Oracle & operational systems. **Result:** consolidated end-to-end view of operations and finance.
+- **Schneider Electric** · Finance, France · `2022/2023` — *Global Finance Data Architect.* Collibra governance across ~60 systems (17 SAP ERP + Central Finance). **Result:** unified, automated P&L; governance conventions adopted org-wide.
+- **Banque Misr Digital** · Banking · `2021` — *Big Data Solution Architect.* Real-time platform on Cloudera with Kafka + Flink, Impala DWH and HBase/Phoenix. **Result:** real-time banking operations & analytics over 25 unified sources.
+- **Travel Intelligence Engine** · Travel · `2019/2020` — *Data / AI Solution Architect.* Real-time, event-driven ML recommendation platform on GCP (Pub/Sub, Cloud Functions, BigQuery). Deployed across World2Meet, Abreu, TUI & Yalago. **Result:** measurable conversion uplift and sub-second response in production.
 - **World2Meet** · Travel · `2018/2019` — *Data Architect / Team Lead.* Qlik Sense for Finance (SAP P&L), then Snowflake on Azure + dbt + Fivetran. **Result:** real-time financial insight with far less manual reporting.
 - **Fergus Hotels** · Hospitality · `2020/2021` — *Data/AI Solution Architect.* Earlier engagement: serverless GCP platform with Airflow/Composer MLOps for demand forecasting & pricing.
 
@@ -201,11 +203,9 @@ Real-time banking platform on **Cloudera** with **Kafka + Flink**, Impala DWH an
 
 **Oracle Corp. Spain**
 - **Polaris World** (Real Estate) — *BI Developer.* Financial consolidation & reporting DWH (Oracle DB + BI Publisher on eBusiness Suite).
-- **Caixa Penedés** (Banking) — *ETL Developer.* Commercial DWH with snowflake model for client-margin analysis (OWB + Business Objects), later integrated into the bank's core.
 - **Department of Education** (Government) — *BI Solution Architect.* Oracle BI for regional education data with a custom PL/SQL-in-Java security model for role-based access.
 
 **SDG Consulting**
-- **Mahou San Miguel** (FMCG) — *Data/BI Solution Architect.* Corporate Balanced Scorecard: 300+ KPIs across ~20 dashboards (OBIEE + SQL Server + Essbase). **Result:** from manual Excel to centralized, automated performance management.
 - **Softonic** (eCommerce) — *Data Architect.* First Big Data platform from scratch (Microsoft stack + Qlik + Pentaho).
 - **Abertis** (Utilities) — *DWH Architect.* Corporate DWH (Oracle + ODI) with geospatial data modelling.
 - **LetsBonus.com** (eCommerce) — *BI/Data Architect.* Corporate DWH in a Big Data environment (Oracle + Pentaho + QlikView); led a team of 4.

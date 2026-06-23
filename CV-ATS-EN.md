@@ -8,7 +8,7 @@ Available for project-based engagements — your partner for the project. Remote
 
 ## Professional Summary
 
-AI/Data Architect with 15+ years of experience bridging business needs with end-to-end data platform implementation for large corporations and fast-growing digital businesses, leading multiple parallel projects and multinational, multidisciplinary teams toward shared objectives. Started at Oracle working on data warehousing and BI, then expanded across complex enterprise environments at SDG Group. For the past 12+ years, working through my own practical knowledge lab (Mind), leading and delivering end-to-end data solutions. In the last two years, focused on what really moves the needle: deploying practical, monetizable AI inside organizations — modern data platforms enabling AI adoption, real-time processing and advanced analytics on serverless, cloud-native architectures. Combines a deep technical background with a strategic mindset to define and implement scalable data architectures that support AI and ML initiatives, while building data-driven cultures through robust data governance, democratization and agile practices.
+AI/Data Architect with 15+ years of experience bridging business needs with end-to-end data platform implementation for large corporations and fast-growing digital businesses, leading multiple parallel projects and multinational, multidisciplinary teams toward shared objectives. Started at Oracle working on data warehousing and BI, then expanded across complex enterprise environments at SDG Group. For the past 12+ years, working through my own practical knowledge lab (Mind), leading and delivering end-to-end data solutions. Over the last two years, focused on what truly delivers impact: deploying practical, monetizable AI inside organizations — modern data platforms enabling AI adoption, real-time processing and advanced analytics on serverless, cloud-native architectures. Combines a deep technical background with a strategic mindset to define and implement scalable data architectures that support AI and ML initiatives, while building data-driven cultures through robust data governance, democratization and agile practices.
 
 ## Core Skills
 
@@ -36,7 +36,7 @@ December 2025 – Present | Barcelona, Spain (Digital Health)
 
 Leading the data area and modernizing the stack to enable AI monetization and deployment across the organization, in a digital health / medical-process digitalization context.
 
-### Founder & Product Manager — Mind One & Qontexta.ai
+### Founder & Product Manager — Mind One (getmindapp.io) & Qontexta.ai (qontexta.ai)
 2025 – Present
 
 End-to-end leadership of two proprietary AI & data products, from vision and product definition to development, launch and ongoing evolution.
@@ -44,7 +44,7 @@ End-to-end leadership of two proprietary AI & data products, from vision and pro
 ### Founder & Senior Data Engineer / Architect — Mind (own practical knowledge lab)
 January 2013 – Present | Barcelona, Spain
 
-Mind is my own practical knowledge lab: projects, solutions and products built around data and organizational optimization. Leading data transformation projects across travel, banking, retail, hospitality and industry with full autonomy over end-to-end design and implementation. In recent years, increasingly focused on AI-ready data architectures and real LLM adoption.
+Mind is my own practical knowledge lab and home base: where I stay at the forefront of the field, put the newest market solutions into practice and turn them into real ways to bring AI into organizations. Leading data transformation projects across travel, banking, retail, hospitality and industry with full autonomy over end-to-end design and implementation; in recent years, increasingly focused on AI-ready data architectures and real LLM adoption.
 
 Key projects:
 
