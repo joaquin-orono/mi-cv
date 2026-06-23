@@ -10,7 +10,7 @@
 [![Ubicación](https://img.shields.io/badge/Barcelona-España-5b8db8?style=flat)](https://maps.google.com/?q=Barcelona,Spain)
 [![Email](https://img.shields.io/badge/joaquin.orono@gmail.com-d96b5a?style=flat&logo=gmail&logoColor=white)](mailto:joaquin.orono@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/+34_677_05_17_33-4aa37a?style=flat&logo=whatsapp&logoColor=white)](https://wa.me/34677051733)
-[![Estado](https://img.shields.io/badge/Disponible-Contractor_%2F_Remoto-7aa874?style=flat)](#disponibilidad)
+[![Estado](https://img.shields.io/badge/Disponible-Por_proyecto_%2F_Remoto-7aa874?style=flat)](#disponibilidad)
 
 [English](README.md) · [Español](README.es.md) · [Versión ATS](CV-ATS-ES.md)
 
@@ -271,7 +271,8 @@ Plataforma bancaria en tiempo real sobre **Cloudera** con **Kafka + Flink**, DWH
 
 ## Disponibilidad
 
-![Contractor](https://img.shields.io/badge/Disponible_para-Rol_Contractor-5b8db8?style=flat)
+![Proyectos](https://img.shields.io/badge/Disponible_para-Proyectos-5b8db8?style=flat)
+![Partner](https://img.shields.io/badge/Tu-Partner_de_proyecto-6d5ef0?style=flat)
 ![Remoto](https://img.shields.io/badge/Remoto-Se_aceptan_viajes_cortos-7aa874?style=flat)
 
 ---

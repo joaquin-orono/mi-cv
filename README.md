@@ -10,7 +10,7 @@
 [![Location](https://img.shields.io/badge/Barcelona-Spain-5b8db8?style=flat)](https://maps.google.com/?q=Barcelona,Spain)
 [![Email](https://img.shields.io/badge/joaquin.orono@gmail.com-d96b5a?style=flat&logo=gmail&logoColor=white)](mailto:joaquin.orono@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/+34_677_05_17_33-4aa37a?style=flat&logo=whatsapp&logoColor=white)](https://wa.me/34677051733)
-[![Status](https://img.shields.io/badge/Available-Contractor_%2F_Remote-7aa874?style=flat)](#availability)
+[![Status](https://img.shields.io/badge/Available-Project--based_%2F_Remote-7aa874?style=flat)](#availability)
 
 [English](README.md) · [Español](README.es.md) · [ATS-friendly version](CV-ATS-EN.md)
 
@@ -271,7 +271,8 @@ Real-time banking platform on **Cloudera** with **Kafka + Flink**, Impala DWH an
 
 ## Availability
 
-![Contractor](https://img.shields.io/badge/Eligible_for-Contractor_Role-5b8db8?style=flat)
+![Open to](https://img.shields.io/badge/Open_to-Project--based_engagements-5b8db8?style=flat)
+![Partner](https://img.shields.io/badge/Your-Project_partner-6d5ef0?style=flat)
 ![Remote](https://img.shields.io/badge/Remote-Short_trips_accepted-7aa874?style=flat)
 
 ---

@@ -4,11 +4,11 @@ Arquitecto de IA y Datos
 
 Barcelona, España | +34 677 05 17 33 | joaquin.orono@gmail.com
 
-Disponible para rol contractor. Trabajo en remoto (se aceptan viajes cortos).
+Disponible para proyectos — tu partner durante el proyecto. En remoto (se aceptan viajes cortos).
 
 ## Resumen Profesional
 
-Arquitecto de IA y Datos con más de 15 años de experiencia conectando las necesidades de negocio con la implementación integral de plataformas de datos. Comencé en Oracle trabajando en data warehousing y BI, y amplié mi experiencia en entornos empresariales complejos en SDG Group. Durante los últimos 12+ años he trabajado de forma independiente, liderando y entregando soluciones de datos de principio a fin para clientes que van desde grandes corporaciones hasta negocios digitales de rápido crecimiento. En los últimos dos años me he centrado intensamente en el nuevo paradigma de datos marcado por la Inteligencia Artificial: diseño e implementación de plataformas de datos modernas que habilitan la adopción de IA, el procesamiento en tiempo real y la analítica avanzada mediante arquitecturas serverless y cloud-native. Combino una sólida base técnica con una visión estratégica para definir e implementar arquitecturas de datos escalables que dan soporte a iniciativas de IA y ML, además de construir culturas data-driven mediante gobierno del dato, democratización y prácticas ágiles.
+Arquitecto de IA y Datos con más de 15 años de experiencia conectando las necesidades de negocio con la implementación integral de plataformas de datos para grandes corporaciones y negocios digitales de rápido crecimiento — en 8 industrias y 4 continentes. Comencé en Oracle trabajando en data warehousing y BI, y amplié mi experiencia en entornos empresariales complejos en SDG Group. Durante los últimos 12+ años he trabajado a través de mi propio laboratorio de conocimiento práctico (Mind), liderando y entregando soluciones de datos de principio a fin. En los últimos dos años me he centrado en lo que de verdad mueve la aguja: desplegar IA práctica y monetizable dentro de las organizaciones — plataformas de datos modernas que habilitan la adopción de IA, el procesamiento en tiempo real y la analítica avanzada sobre arquitecturas serverless y cloud-native. Combino una sólida base técnica con visión estratégica para definir e implementar arquitecturas de datos escalables que dan soporte a iniciativas de IA y ML, además de construir culturas data-driven mediante gobierno del dato, democratización y prácticas ágiles.
 
 ## Competencias Clave
 
@@ -16,9 +16,9 @@ IA y Machine Learning: Arquitectura de soluciones de IA, MLOps y gestión del ci
 
 Datos y Analítica: Arquitectura e ingeniería de datos, Modern Data Stack (dbt, Snowflake, BigQuery, Azure, Databricks, Airflow, Python, SQL), modelado de datos (Kimball, Dimensional), estrategia y gobierno del dato, arquitecturas event-driven.
 
-Liderazgo Técnico: Gestión de proyectos/programas de IA, liderazgo de equipos multidisciplinares, pensamiento estratégico y corporativo, entrega orientada a resultados, comunicación técnica y gestión de stakeholders.
+Liderazgo y Producto: Liderazgo de datos (Interim Head of Data), Product Management de IA/datos, gestión de proyectos/programas de IA, liderazgo de equipos multidisciplinares, gestión de stakeholders.
 
-Negocio: Alineación de la IA con el valor de negocio, liderazgo en transformación digital, experiencia en múltiples industrias, mentalidad de innovación y resolución de problemas, enfoque ágil y analítico.
+Negocio: Valor de negocio y monetización de la IA, liderazgo en transformación digital, experiencia en múltiples industrias, mentalidad de innovación y resolución de problemas, enfoque ágil y analítico.
 
 ## Tecnologías
 
@@ -31,25 +31,37 @@ Business Intelligence y Gobierno del Dato: Power BI, Qlik (QlikView, Qlik Sense,
 
 ## Experiencia Profesional
 
-### Senior Data Engineer / Arquitecto — Freelance (Mind)
+### Interim Head of Data — Meeting Doctors
+Diciembre 2025 – Actualidad | Barcelona, España (Salud Digital)
+
+Dirección del área de datos y modernización del stack para habilitar la monetización y el despliegue de IA en la organización, en un contexto de salud digital / digitalización de procesos médicos.
+
+### Founder & Product Manager — Mind One y Qontexta.ai
+2025 – Actualidad
+
+Liderazgo end-to-end de dos productos propios de IA y datos, desde la visión y la definición de producto al desarrollo, lanzamiento y evolución continua.
+
+### Founder & Senior Data Engineer / Arquitecto — Mind (laboratorio de conocimiento práctico propio)
 Enero 2013 – Actualidad | Barcelona, España
 
-A través de mi propia empresa (Mind), liderando proyectos de transformación de datos en travel, banca, retail y hostelería. Autonomía total sobre el diseño e implementación integral de soluciones de datos modernas, robustas y alineadas con el negocio. En los últimos años, cada vez más centrado en arquitecturas de datos listas para la IA y en ayudar a las organizaciones a adoptarla de forma efectiva.
+Mind es mi propio laboratorio de conocimiento práctico: proyectos, soluciones y productos alrededor del dato y la optimización de las organizaciones. Liderando proyectos de transformación de datos en travel, banca, retail, hostelería e industria con autonomía total sobre el diseño e implementación integral. En los últimos años, cada vez más centrado en arquitecturas listas para IA y adopción real de LLMs.
 
 Proyectos destacados:
 
-- Japan Tobacco International (FMCG), 2013–2015 — Data & Analytics Solution Architect. Lideré el despliegue global del programa BI corporativo (TME) sobre OBIEE, una de las mayores iniciativas de BI del mundo con más de 6.500 usuarios, en Europa, EE. UU. y Sudeste Asiático. Lideré pruebas de concepto en Machine Learning e Inteligencia de Localización.
-- Hotelbeds (Travel), 2015–2017 — Data Architect. Integré Oracle BI Publisher, después implementé QlikView como plataforma de BI transversal, y lideré una nueva plataforma Big Data sobre Hortonworks integrando datos de SAP, Oracle y múltiples sistemas operacionales, garantizando consistencia, linaje y fiabilidad.
-- World2Meet (Travel), 2018–2019 — Data Architect / Team Lead. Implementé Qlik Sense para Finanzas (automatización de P&L desde SAP) y desplegué una plataforma de datos moderna sobre Snowflake (Azure) con dbt para transformaciones y Fivetran para ingesta, habilitando insights financieros en tiempo real.
-- Travel Intelligence Engine (Travel), 2019–2020 — Data / AI Solution Architect. Diseñé una plataforma de optimización de conversión en tiempo real con IA, usando ML para recomendaciones personalizadas. Construí una arquitectura serverless y event-driven sobre Google Cloud (Pub/Sub, Cloud Functions, BigQuery, Dataform, Terraform) con pipeline completo de MLOps y serving de modelos sub-segundo. Desplegado en World2Meet (ES), Viagens Abreu (PT), TUI (UK) y Yalago (Dubái).
-- Fergus Hotels (Hostelería), 2020–2021 — Data/AI Solution Architect / Data Engineer. Construí una plataforma de datos con IA en tiempo real sobre Google Cloud (Pub/Sub, BigQuery, Cloud Functions) integrando SQL Server, Salesforce, Business Central, Google Analytics, APIs y Excel. Implementé pipelines de MLOps con Airflow (Composer) para previsión de demanda, optimización de precios y predicción de comportamiento de huéspedes. Stack: Terraform, GitHub, dbt, Talend Stitch, Qlik Cloud.
-- Brico Depôt Iberia (Grupo Kingfisher, Retail), 2020–2021 — Data Solution Architect / Data Engineer. Lideré una estrategia de datos basada en IA en Marketing, CX, Ventas, Operaciones y Finanzas. Construí una arquitectura big data serverless sobre Google Cloud integrada con Power BI, con segmentación de clientes, previsión de demanda y optimización de inventario sobre SAP HANA Cloud, Magento y SQL. Stack: Talend Stitch, Terraform, BigQuery, dbt, Pub/Sub, Cloud Functions, Kmine.
-- Banque Misr Digital Innovation (Banca), 2021 — Big Data Solution Architect. Desplegué Cloudera como plataforma big data integral con Confluent Kafka y Apache Flink para streaming y procesamiento en tiempo real, Impala como Data Warehouse y HBase/Phoenix como base de datos operacional. Orquesté la ingesta en tiempo real de 25 fuentes de datos bancarias. Exploración de datos con Tableau sobre Impala y Jupyter Notebooks.
-- Schneider Electric (Finanzas, Francia), 2022–2023 — Global Finance Data Architect. Lideré la implementación de Collibra como plataforma global de gobierno del dato para la organización financiera. Estandaricé datos y procesos financieros sobre ~60 sistemas, incluyendo 17 instancias de SAP ERP y SAP Central Finance, estableciendo convenciones de nomenclatura y mejores prácticas hacia un P&L unificado.
-- JumboDiset (Industrial), 2023–2024 — Data Architect / Data Engineer. Implementación integral de Data Warehouse y BI corporativo desde cero usando PostgreSQL como DWH central, Jedox EPM para ingesta, dbt para transformaciones y Power BI para visualización.
-- Hoteles Silken (Hostelería), 2024–2025 — AI Data Architect / Data Engineer. Construí un stack de datos con IA desde cero sobre Google Cloud (Cloud Functions con Python/pyairbyte, Cloud Storage, BigQuery, dbt) con Qlik Cloud para BI, además de pipelines de MLOps para previsión de ventas y predicción de demanda. Desarrollé un asistente de IA integrando Anthropic Claude con conectividad MCP a BigQuery para recomendaciones de precios en tiempo real, con capacidad de aplicar ajustes de precios al channel manager cuando el usuario lo autoriza.
-- Grupo Cursach (Ocio), 2025 — AI Architect / Data Engineer. Diseñé un data lake financiero sobre Google Cloud (BigQuery + dbt) para analítica de tesorería con IA. Desarrollé un agente de IA integrando Anthropic Claude con conectividad MCP a BigQuery para análisis financiero conversacional, con capacidad de generar y escribir informes financieros en Excel automáticamente a partir de consultas en lenguaje natural.
-- Marugal (Hostelería), 2025–2026 — Lead Data Solution Architect. Diseñé e implementé un Data Warehouse cloud sobre Google BigQuery, definiendo la arquitectura integral sobre múltiples sistemas origen con consistencia y gobierno del dato. Referente técnico para iniciativas de datos; entrega de BI sobre Qlik; alineado con la estrategia de migración cloud y mejores prácticas.
+- Fergus Hotels (Hostelería), 2026 — AI Deployment Lead. Despliegue de IA en toda la compañía, pilotando Claude en ventas, finanzas y operaciones. Resultado: IA operativa en las áreas core, con decisiones asistidas en el día a día.
+- Jumbogroup (Industrial), 2026 — AI Architect. Pilotaje de IA en finanzas y ventas combinando Power BI, Claude y autoservicio de IA. Resultado: equipos de finanzas y ventas autónomos, mucho menos reporting manual.
+- Hoteles Silken (Hostelería), 2024–2025 — AI Data Architect / Data Engineer. Stack de datos con IA desde cero en Google Cloud (Cloud Functions con pyairbyte, Cloud Storage, BigQuery, dbt, Qlik Cloud) con MLOps para previsión de ventas y demanda. Asistente de IA integrando Anthropic Claude con MCP sobre BigQuery para recomendaciones de precios en tiempo real, aplicadas automáticamente al channel manager. Resultado: pricing recomendado y aplicado en tiempo real; acceso al dato democratizado vía IA conversacional.
+- Grupo Cursach (Ocio), 2025 — AI Architect / Data Engineer. Data lake financiero en Google Cloud (BigQuery + dbt) con un agente de IA (Anthropic Claude + MCP sobre BigQuery) para análisis conversacional de tesorería. Resultado: tesorería analizada en lenguaje natural; informes financieros en Excel generados automáticamente.
+- Marugal (Hostelería), 2025–2026 — Lead Data Solution Architect. Data Warehouse cloud en Google BigQuery con arquitectura integral sobre múltiples sistemas origen; BI sobre Qlik. Resultado: base analítica escalable y gobernada, alineada con la estrategia de migración cloud.
+- Banque Misr Digital Innovation (Banca), 2021 — Big Data Solution Architect. Plataforma Cloudera con Confluent Kafka y Apache Flink, Data Warehouse en Impala y HBase/Phoenix; ingesta en tiempo real desde 25 fuentes bancarias. Resultado: operaciones bancarias y analítica en tiempo real sobre 25 fuentes unificadas.
+- Travel Intelligence Engine (Travel), 2019–2020 — Data / AI Solution Architect. Plataforma de recomendación ML event-driven en tiempo real sobre Google Cloud (Pub/Sub, Cloud Functions, BigQuery, Terraform), desplegada en World2Meet (ES), Viagens Abreu (PT), TUI (UK) y Yalago (Dubái). Resultado: mejora medible de la conversión y serving de modelos sub-segundo en producción.
+- Brico Depôt Iberia (Grupo Kingfisher, Retail), 2020–2021 — Data Solution Architect. Arquitectura big data serverless en Google Cloud + Power BI con ML sobre SAP HANA Cloud, Magento y SQL. Resultado: forecasting, segmentación de clientes e inventario optimizado en producción.
+- Schneider Electric (Finanzas, Francia), 2022–2023 — Global Finance Data Architect. Gobierno con Collibra sobre ~60 sistemas (17 instancias SAP ERP + SAP Central Finance). Resultado: P&L unificado y automatizado y convenciones de gobierno adoptadas globalmente.
+- JumboDiset (Industrial), 2023–2024 — Data Architect / Data Engineer. DWH y BI integral desde cero (PostgreSQL, Jedox EPM, dbt, Power BI). Resultado: primera base analítica centralizada del grupo.
+- Japan Tobacco International (FMCG), 2013–2015 — Data & Analytics Solution Architect. Rollout global de BI OBIEE (TME), 6.500+ usuarios en Europa, EE. UU. y Sudeste Asiático. Resultado: BI corporativo estandarizado en 3 continentes, reemplazando herramientas legacy.
+- Hotelbeds (Travel), 2015–2017 — Data Architect. Plataforma Big Data sobre Hortonworks integrando SAP, Oracle y sistemas operacionales, con QlikView como BI transversal. Resultado: vista consolidada end-to-end de operaciones y finanzas.
+- World2Meet (Travel), 2018–2019 — Data Architect / Team Lead. Snowflake en Azure + dbt + Fivetran; automatización del P&L desde SAP con Qlik Sense. Resultado: insight financiero en tiempo real con mucho menos esfuerzo manual.
+- Fergus Hotels (Hostelería), 2020–2021 — Data/AI Solution Architect. Engagement anterior: plataforma serverless en Google Cloud con MLOps en Airflow (Composer) para previsión de demanda y optimización de precios.
 
 ### Data & Analytics Engineer / Arquitecto — SDG Consulting
 Enero 2011 – Diciembre 2012
@@ -58,11 +70,11 @@ Trabajé en entornos empresariales complejos y multitecnología, definiendo arqu
 
 Proyectos destacados:
 
-- Mahou San Miguel (FMCG) — Data/BI Solution Architect. Lideré de principio a fin el Cuadro de Mando Integral corporativo con más de 300 KPIs en ~20 dashboards (OBIEE, SQL Server, Essbase), entregado en un año. Reporte directo al CIO (Project Owner) y CFO (Project Sponsor).
-- Softonic (eCommerce) — Data Architect. Construí una plataforma Big Data moderna desde cero (tecnologías Microsoft, Qlik, Pentaho).
-- Abertis Autopistas de España (Utilities) — DWH Architect. Diseñé el Data Warehouse corporativo (Oracle, Oracle Data Integrator) con integración de datos espaciales/geoespaciales.
-- LetsBonus.com (eCommerce) — BI/Data Architect. Implementé el Data Warehouse corporativo en un entorno Big Data (Oracle, Pentaho, QlikView); lideré un equipo de cuatro personas.
-- Mitsubishi Electric (FMCG) — Data Architect. Construí el Data Warehouse financiero sobre SAP BW con Business Objects para consolidación y reporting; gestioné un equipo mixto de cinco personas.
+- Mahou San Miguel (FMCG) — Data/BI Solution Architect. Cuadro de Mando Integral corporativo de principio a fin con 300+ KPIs en ~20 dashboards (OBIEE, SQL Server, Essbase). Reporte a CIO y CFO. Resultado: de Excel manual a gestión del rendimiento centralizada y automatizada.
+- Softonic (eCommerce) — Data Architect. Plataforma Big Data moderna desde cero (tecnologías Microsoft, Qlik, Pentaho).
+- Abertis Autopistas de España (Utilities) — DWH Architect. Data Warehouse corporativo (Oracle, Oracle Data Integrator) con datos espaciales/geoespaciales.
+- LetsBonus.com (eCommerce) — BI/Data Architect. Data Warehouse corporativo en entorno Big Data (Oracle, Pentaho, QlikView); lideré un equipo de cuatro personas.
+- Mitsubishi Electric (FMCG) — Data Architect. Data Warehouse financiero sobre SAP BW con Business Objects.
 
 ### Senior Data / BI Consultant — Oracle Corp. España
 Noviembre 2005 – Diciembre 2010

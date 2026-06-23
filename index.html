@@ -4,115 +4,130 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Joaquin Oroño Bugnon — AI &amp; Data Architect</title>
-<meta name="description" content="Joaquin Oroño Bugnon — AI / Data Architect with 15+ years bridging business and data platforms." />
+<meta name="description" content="Joaquin Oroño Bugnon — AI / Data Architect. I bring practical, monetizable AI into organizations." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#f5f8fa; --panel:#ffffff; --brd:#e4eaef; --brd-2:#d3dde4;
-    --txt:#26333c; --muted:#647683; --soft:#41525c;
-    --accent:#2f7fb5; --accent-2:#2aa79b; --chip:#eef4f8;
-    --shadow:0 1px 2px rgba(20,40,55,.04),0 6px 20px rgba(20,40,55,.06);
-    --radius:16px; --maxw:1000px;
+    --ink:#151551; --ink-soft:#3a3a6b; --body:#45456b; --muted:#7a7a98;
+    --violet:#5b4bd6; --violet-2:#7c6cf0; --cyan:#38bdf8;
+    --grad:linear-gradient(120deg,#151551 0%,#4338ca 42%,#6d5ef0 72%,#38bdf8 118%);
+    --grad-soft:linear-gradient(120deg,#5b4bd6,#7c6cf0 60%,#38bdf8);
+    --bg:#ffffff; --soft:#f6f7fc; --brd:#ececf5; --brd-2:#e0e0ef;
+    --shadow:0 1px 2px rgba(21,21,81,.04),0 10px 30px rgba(21,21,81,.07);
+    --radius:18px; --maxw:1000px;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
   body{
-    font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    color:var(--txt); line-height:1.65; -webkit-font-smoothing:antialiased;
-    background:
-      radial-gradient(900px 500px at 12% -8%, rgba(42,167,155,.07), transparent 60%),
-      radial-gradient(900px 600px at 108% 0%, rgba(47,127,181,.08), transparent 55%),
-      var(--bg);
-    background-attachment:fixed; min-height:100vh;
+    font-family:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+    color:var(--body); line-height:1.62; -webkit-font-smoothing:antialiased; background:var(--bg); min-height:100vh;
   }
   a{color:inherit;text-decoration:none}
   .wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
+  .gt{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
 
-  .bar{position:sticky;top:0;z-index:50;backdrop-filter:blur(10px);
-    background:rgba(255,255,255,.72);border-bottom:1px solid var(--brd)}
-  .bar .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;gap:12px}
-  .brand{font-weight:700;font-size:15px;color:var(--soft)}
-  .brand b{color:var(--accent)}
+  .bar{position:sticky;top:0;z-index:50;backdrop-filter:blur(12px);background:rgba(255,255,255,.78);border-bottom:1px solid var(--brd)}
+  .bar .wrap{display:flex;align-items:center;justify-content:space-between;height:58px;gap:12px}
+  .brand{font-weight:800;font-size:15px;color:var(--ink);letter-spacing:-.01em}
   .controls{display:flex;gap:8px;align-items:center}
-  .btn{border:1px solid var(--brd-2);background:#fff;color:var(--soft);
-    padding:7px 13px;border-radius:999px;font-size:13px;cursor:pointer;transition:.18s;font-weight:600}
-  .btn:hover{border-color:var(--accent);color:var(--accent)}
+  .btn{border:1px solid var(--brd-2);background:#fff;color:var(--ink);padding:8px 14px;border-radius:999px;font-size:13px;cursor:pointer;transition:.18s;font-weight:700}
+  .btn:hover{border-color:var(--violet);color:var(--violet)}
   .toggle{display:flex;border:1px solid var(--brd-2);border-radius:999px;overflow:hidden;background:#fff}
-  .toggle button{background:transparent;color:var(--muted);border:0;padding:7px 13px;font-size:13px;cursor:pointer;font-weight:700}
-  .toggle button.active{background:var(--accent);color:#fff}
+  .toggle button{background:transparent;color:var(--muted);border:0;padding:8px 14px;font-size:13px;cursor:pointer;font-weight:800}
+  .toggle button.active{background:var(--grad);color:#fff}
 
-  header.hero{padding:64px 0 26px}
-  h1{font-size:clamp(34px,6vw,54px);line-height:1.05;margin:0 0 .1em;font-weight:800;letter-spacing:-.8px;color:#1c2a32}
-  .role{font-size:clamp(17px,2.4vw,21px);color:var(--accent);font-weight:700}
-  .tagline{color:var(--soft);font-size:clamp(15px,2vw,17px);margin-top:12px;max-width:62ch}
+  header.hero{position:relative;overflow:hidden;padding:74px 0 40px}
+  header.hero::before{content:"";position:absolute;inset:0;z-index:0;background:
+    radial-gradient(680px 420px at 8% -10%, rgba(91,75,214,.16), transparent 60%),
+    radial-gradient(560px 420px at 98% 0%, rgba(56,189,248,.16), transparent 55%),
+    radial-gradient(500px 360px at 60% 120%, rgba(124,108,240,.10), transparent 60%);}
+  .hero .wrap{position:relative;z-index:1;display:flex;gap:38px;align-items:center;flex-wrap:wrap}
+  .avatar{flex:0 0 auto;background:var(--grad);padding:4px;border-radius:50%;box-shadow:0 12px 34px rgba(67,56,202,.28)}
+  .avatar img{display:block;width:138px;height:138px;border-radius:50%;object-fit:cover;border:4px solid #fff}
+  .hero .intro{flex:1 1 340px;min-width:280px}
+  .eyebrow{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--violet);font-weight:500}
+  h1{font-size:clamp(34px,6vw,56px);line-height:1.02;margin:8px 0 4px;font-weight:800;letter-spacing:-.025em;color:var(--ink)}
+  .role{font-size:clamp(16px,2.3vw,20px);color:var(--ink-soft);font-weight:600}
+  .slogan{font-size:clamp(26px,4.4vw,42px);font-weight:800;letter-spacing:-.03em;margin-top:18px;line-height:1.05}
+  .tagline{color:var(--body);font-size:clamp(15px,2vw,17px);margin-top:12px;max-width:60ch}
   .contact{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px}
-  .chip{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--brd-2);
-    padding:8px 14px;border-radius:999px;font-size:13.5px;font-weight:600;color:var(--soft);transition:.18s;box-shadow:var(--shadow)}
-  .chip:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-1px)}
-  .chip .dot{width:8px;height:8px;border-radius:50%;background:var(--accent-2)}
-  .avail{background:var(--chip);border-color:#cfe6e2}
+  .chip{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--brd-2);padding:8px 14px;border-radius:999px;font-size:13.5px;font-weight:600;color:var(--ink-soft);transition:.18s;box-shadow:var(--shadow)}
+  .chip:hover{border-color:var(--violet);color:var(--violet);transform:translateY(-1px)}
+  .chip .dot{width:8px;height:8px;border-radius:50%;background:var(--violet-2);box-shadow:0 0 10px var(--violet-2)}
+  .avail{background:linear-gradient(120deg,rgba(91,75,214,.10),rgba(56,189,248,.12));border-color:#d8d8f2}
 
-  section{padding:30px 0;border-top:1px solid var(--brd)}
+  section{padding:32px 0;border-top:1px solid var(--brd)}
   .kicker{display:flex;align-items:center;gap:10px;margin-bottom:18px}
-  .kicker h2{font-size:clamp(20px,3vw,26px);font-weight:800;letter-spacing:-.4px;color:#1c2a32}
-  .kicker .ic{font-size:20px;opacity:.9}
-  .lead{font-size:16.5px;color:var(--soft);max-width:80ch}
+  .kicker h2{font-size:clamp(21px,3.2vw,28px);font-weight:800;letter-spacing:-.025em;color:var(--ink)}
+  .kicker .ic{font-size:20px}
+  .lead{font-size:16.5px;color:var(--body);max-width:80ch}
   .lead + .lead{margin-top:12px}
+  .lead b{color:var(--ink);font-weight:700}
 
-  .stats{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
-  .stat{background:var(--panel);border:1px solid var(--brd);border-radius:var(--radius);padding:18px 14px;text-align:center;box-shadow:var(--shadow);transition:.2s}
-  .stat:hover{transform:translateY(-3px);border-color:var(--brd-2)}
-  .stat .n{font-size:clamp(20px,2.8vw,27px);font-weight:800;color:var(--accent)}
-  .stat .l{font-size:12px;color:var(--muted);margin-top:5px;line-height:1.35}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+  .stat{background:#fff;border:1px solid var(--brd);border-radius:var(--radius);padding:22px 16px;text-align:center;box-shadow:var(--shadow);transition:.2s}
+  .stat:hover{transform:translateY(-4px);border-color:var(--brd-2)}
+  .stat .n{font-size:clamp(28px,4vw,40px);font-weight:800;letter-spacing:-.03em}
+  .stat .l{font-size:12.5px;color:var(--muted);margin-top:4px;font-weight:600}
 
   .techgroup{margin-bottom:16px}
-  .techgroup h3{font-size:13px;color:var(--soft);font-weight:700;margin-bottom:9px}
+  .techgroup h3{font-size:13px;color:var(--violet);font-weight:700;margin-bottom:9px}
   .pills{display:flex;flex-wrap:wrap;gap:8px}
-  .pill{background:#fff;border:1px solid var(--brd-2);padding:6px 12px;border-radius:9px;font-size:13px;font-weight:600;color:var(--soft);transition:.18s}
-  .pill:hover{border-color:var(--accent);color:var(--accent)}
+  .pill{background:var(--soft);border:1px solid var(--brd);padding:6px 13px;border-radius:9px;font-size:13px;font-weight:600;color:var(--ink-soft);transition:.18s}
+  .pill:hover{border-color:var(--violet);color:var(--violet);background:#fff}
 
-  .tl{position:relative;padding-left:24px}
-  .tl::before{content:"";position:absolute;left:6px;top:6px;bottom:6px;width:2px;background:var(--brd-2)}
+  .tl{position:relative;padding-left:26px}
+  .tl::before{content:"";position:absolute;left:6px;top:6px;bottom:6px;width:2px;background:var(--grad-soft)}
   .job{position:relative;margin-bottom:22px}
-  .job::before{content:"";position:absolute;left:-24px;top:5px;width:12px;height:12px;border-radius:50%;background:#fff;border:3px solid var(--accent)}
-  .job h3{font-size:17px;font-weight:700;color:#1c2a32}
-  .job .co{color:var(--accent)}
-  .job .when{font-size:12.5px;color:var(--muted);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;margin:2px 0 7px}
-  .job p{color:var(--soft);font-size:14.5px}
+  .job::before{content:"";position:absolute;left:-26px;top:4px;width:13px;height:13px;border-radius:50%;background:#fff;border:3px solid var(--violet)}
+  .job h3{font-size:17px;font-weight:700;color:var(--ink)}
+  .job .co{color:var(--violet)}
+  .job .when{font-size:12.5px;color:var(--muted);font-family:'IBM Plex Mono',monospace;margin:2px 0 7px}
+  .job p{color:var(--body);font-size:14.5px}
 
   .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
-  .card{background:var(--panel);border:1px solid var(--brd);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow);transition:.2s}
-  .card:hover{transform:translateY(-3px);border-color:var(--brd-2)}
+  .card{position:relative;background:#fff;border:1px solid var(--brd);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow);transition:.2s;overflow:hidden}
+  .card::before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:var(--grad);opacity:0;transition:.2s}
+  .card:hover{transform:translateY(-4px);border-color:var(--brd-2)}
+  .card:hover::before{opacity:1}
   .card .top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
-  .card h3{font-size:16px;font-weight:700;color:#1c2a32}
-  .card .ind{font-size:11px;color:var(--accent-2);background:var(--chip);border:1px solid #cfe6e2;padding:3px 9px;border-radius:999px;white-space:nowrap;font-weight:700}
-  .card .rolep{color:var(--accent);font-weight:600;font-size:13px;margin:5px 0 7px}
-  .card p{font-size:13.8px;color:var(--soft)}
-  .card .yr{font-family:ui-monospace,monospace;font-size:11.5px;color:var(--muted)}
+  .card h3{font-size:16.5px;font-weight:700;color:var(--ink)}
+  .card .ind{font-size:11px;color:var(--violet);background:rgba(91,75,214,.08);border:1px solid #e2e0f6;padding:3px 9px;border-radius:999px;white-space:nowrap;font-weight:700}
+  .card .rolep{color:var(--violet);font-weight:600;font-size:13px;margin:5px 0 7px}
+  .card p{font-size:14px;color:var(--body)}
+  .card .yr{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--muted)}
+  .card .res{font-size:13px;font-weight:700;color:var(--ink);margin-top:10px;padding-top:10px;border-top:1px dashed var(--brd-2);line-height:1.45}
+  .card .res span{color:var(--violet)}
 
-  details{margin-top:14px;background:var(--panel);border:1px solid var(--brd);border-radius:var(--radius);padding:2px 18px;box-shadow:var(--shadow)}
-  details summary{cursor:pointer;font-weight:700;padding:14px 0;list-style:none;color:var(--accent)}
+  details{margin-top:14px;background:#fff;border:1px solid var(--brd);border-radius:var(--radius);padding:2px 18px;box-shadow:var(--shadow)}
+  details summary{cursor:pointer;font-weight:700;padding:14px 0;list-style:none;color:var(--violet)}
   details summary::-webkit-details-marker{display:none}
   details summary::before{content:"▸ ";transition:.2s}
   details[open] summary::before{content:"▾ "}
   details ul{padding:2px 0 14px 18px}
-  details li{margin-bottom:9px;color:var(--soft);font-size:14px}
+  details li{margin-bottom:9px;color:var(--body);font-size:14px}
+  details li b{color:var(--ink)}
 
   .twocol{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-  .skillblock h3{font-size:14.5px;color:#1c2a32;margin-bottom:8px;font-weight:700}
+  .skillblock h3{font-size:14.5px;color:var(--ink);margin-bottom:8px;font-weight:700}
   .skillblock ul{list-style:none;margin-bottom:16px}
-  .skillblock li{padding:4px 0 4px 18px;position:relative;font-size:14px;color:var(--soft)}
-  .skillblock li::before{content:"–";position:absolute;left:0;color:var(--accent)}
+  .skillblock li{padding:4px 0 4px 18px;position:relative;font-size:14px;color:var(--body)}
+  .skillblock li::before{content:"▹";position:absolute;left:0;color:var(--violet)}
 
   .eduitem{display:flex;gap:14px;align-items:baseline;padding:11px 0;border-bottom:1px solid var(--brd)}
   .eduitem:last-child{border-bottom:0}
-  .eduitem .y{font-family:ui-monospace,monospace;color:var(--accent);font-size:12.5px;min-width:88px}
-  .eduitem .t{font-weight:700;color:#1c2a32}
+  .eduitem .y{font-family:'IBM Plex Mono',monospace;color:var(--violet);font-size:12.5px;min-width:88px}
+  .eduitem .t{font-weight:700;color:var(--ink)}
   .eduitem .s{color:var(--muted);font-size:13.5px}
 
-  footer{padding:40px 0;text-align:center;border-top:1px solid var(--brd)}
-  footer h2{font-size:clamp(19px,3vw,24px);font-weight:800;margin-bottom:16px;color:#1c2a32}
+  footer{position:relative;overflow:hidden;padding:54px 0;text-align:center;border-top:1px solid var(--brd)}
+  footer::before{content:"";position:absolute;inset:0;background:radial-gradient(600px 300px at 50% 120%,rgba(91,75,214,.12),transparent 70%)}
+  footer .wrap{position:relative;z-index:1}
+  footer .big{font-size:clamp(24px,4vw,38px);font-weight:800;letter-spacing:-.03em;margin-bottom:8px}
+  footer .sub{color:var(--muted);margin-bottom:18px}
   .btnrow{display:flex;gap:9px;justify-content:center;flex-wrap:wrap}
-  .note{margin-top:22px;color:var(--muted);font-size:12.5px}
 
   .reveal{opacity:0;transform:translateY(14px);transition:.5s cubic-bezier(.2,.7,.3,1)}
   .reveal.in{opacity:1;transform:none}
@@ -120,14 +135,16 @@
   @media(max-width:760px){
     .stats{grid-template-columns:repeat(2,1fr)}
     .grid,.twocol{grid-template-columns:1fr}
-    header.hero{padding:42px 0 16px}
+    header.hero{padding:46px 0 22px}
+    .hero .wrap{gap:24px}
   }
   @media print{
     body{background:#fff}
+    header.hero::before,footer::before{display:none}
     .bar,.controls,#printBtn{display:none!important}
     .reveal{opacity:1!important;transform:none!important}
     .card,.job,.stat{break-inside:avoid}
-    @page{margin:14mm}
+    @page{margin:13mm}
   }
 </style>
 </head>
@@ -135,7 +152,7 @@
 
 <div class="bar">
   <div class="wrap">
-    <div class="brand">Joaquin <b>Oroño Bugnon</b></div>
+    <div class="brand">Joaquin Oroño Bugnon</div>
     <div class="controls">
       <div class="toggle" id="lang">
         <button data-l="en" class="active">EN</button>
@@ -148,14 +165,21 @@
 
 <header class="hero">
   <div class="wrap">
-    <h1>Joaquin Oroño Bugnon</h1>
-    <div class="role" data-t="role"></div>
-    <p class="tagline" data-t="tagline"></p>
-    <div class="contact">
-      <a class="chip" href="https://maps.google.com/?q=Barcelona,Spain">📍 <span data-t="loc"></span></a>
-      <a class="chip" href="mailto:joaquin.orono@gmail.com">✉️ joaquin.orono@gmail.com</a>
-      <a class="chip" href="https://wa.me/34677051733">💬 +34 677 05 17 33</a>
-      <span class="chip avail"><span class="dot"></span><span data-t="status"></span></span>
+    <div class="avatar" onerror="this.style.display='none'">
+      <img src="src/foto-cv-jo.jpg" alt="Joaquin Oroño Bugnon" onerror="this.closest('.avatar').style.display='none'" />
+    </div>
+    <div class="intro">
+      <div class="eyebrow" data-t="eyebrow"></div>
+      <h1>Joaquin <span class="gt">Oroño Bugnon</span></h1>
+      <div class="role" data-t="role"></div>
+      <div class="slogan gt" data-t="slogan"></div>
+      <p class="tagline" data-t="tagline"></p>
+      <div class="contact">
+        <a class="chip" href="https://maps.google.com/?q=Barcelona,Spain">📍 <span data-t="loc"></span></a>
+        <a class="chip" href="mailto:joaquin.orono@gmail.com">✉️ joaquin.orono@gmail.com</a>
+        <a class="chip" href="https://wa.me/34677051733">💬 +34 677 05 17 33</a>
+        <span class="chip avail"><span class="dot"></span><span data-t="status"></span></span>
+      </div>
     </div>
   </div>
 </header>
@@ -164,7 +188,8 @@
 
 <footer>
   <div class="wrap">
-    <h2 data-t="cta"></h2>
+    <div class="big gt" data-t="slogan2"></div>
+    <div class="sub" data-t="cta"></div>
     <div class="btnrow">
       <a class="chip" href="mailto:joaquin.orono@gmail.com">✉️ <span data-t="getintouch"></span></a>
       <a class="chip" href="https://wa.me/34677051733">💬 WhatsApp</a>
@@ -175,30 +200,32 @@
 <script>
 const DATA = {
   ui:{
-    en:{print:"PDF",role:"AI / Data Architect",
-        tagline:"15+ years turning business needs into reliable, AI-ready data platforms.",
-        loc:"Barcelona, Spain",status:"Available · Contractor / Remote",
-        cta:"Get in touch",getintouch:"Email me",
-        s_about:"About",s_numbers:"Highlights",s_tech:"Tech Stack",s_exp:"Experience",
-        s_feat:"Selected Projects",s_skills:"Skills",s_edu:"Education & Certifications",s_avail:"Availability",
-        moreFree:"More projects — Freelance",moreEarly:"Early career — Oracle & SDG"},
-    es:{print:"PDF",role:"Arquitecto de IA y Datos",
-        tagline:"15+ años convirtiendo necesidades de negocio en plataformas de datos fiables y listas para IA.",
-        loc:"Barcelona, España",status:"Disponible · Contractor / Remoto",
-        cta:"Hablemos",getintouch:"Escríbeme",
-        s_about:"Sobre mí",s_numbers:"Destacados",s_tech:"Stack Tecnológico",s_exp:"Experiencia",
-        s_feat:"Proyectos Seleccionados",s_skills:"Competencias",s_edu:"Formación y Certificaciones",s_avail:"Disponibilidad",
-        moreFree:"Más proyectos — Freelance",moreEarly:"Inicios — Oracle y SDG"}
+    en:{print:"PDF",eyebrow:"AI · Data · Intelligence",role:"AI / Data Architect",
+        slogan:"Practical, monetizable AI inside your organization.",slogan2:"Let's talk data &amp; AI.",
+        tagline:"15+ years of end-to-end data architecture across 8 industries and 4 continents.",
+        loc:"Barcelona, Spain",status:"Available · Project partner",
+        cta:"Open to project-based engagements — your partner for the project, remote, short trips accepted.",getintouch:"Email me",
+        s_about:"About",s_numbers:"At a glance",s_tech:"Tech Stack",s_exp:"Experience",
+        s_feat:"Selected Projects",s_skills:"Skills",s_edu:"Education & Certifications",
+        moreFree:"More projects — Mind / Freelance",moreEarly:"Early career — Oracle & SDG"},
+    es:{print:"PDF",eyebrow:"IA · Datos · Inteligencia",role:"Arquitecto de IA y Datos",
+        slogan:"IA práctica y monetizable dentro de tu organización.",slogan2:"Hablemos de datos e IA.",
+        tagline:"15+ años de arquitectura de datos end-to-end en 8 industrias y 4 continentes.",
+        loc:"Barcelona, España",status:"Disponible · Partner de proyecto",
+        cta:"Disponible para proyectos — tu partner durante el proyecto, en remoto, con viajes cortos.",getintouch:"Escríbeme",
+        s_about:"Sobre mí",s_numbers:"De un vistazo",s_tech:"Stack Tecnológico",s_exp:"Experiencia",
+        s_feat:"Proyectos Seleccionados",s_skills:"Competencias",s_edu:"Formación y Certificaciones",
+        moreFree:"Más proyectos — Mind / Freelance",moreEarly:"Inicios — Oracle y SDG"}
   },
   summary:{
-    en:["AI/Data Architect with <b>15+ years</b> bridging business needs and end-to-end data platform delivery. From my technical roots at <b>Oracle</b> and <b>SDG Group</b> to <b>12+ years freelancing through my own company (Mind)</b>, I design modern, scalable data architectures that make organizations data-driven — and, lately, AI-ready.",
-        "I combine a solid technical background with a strategic view: scalable architectures for AI/ML on serverless, cloud-native platforms, plus a focus on governance, data democratization and agile delivery."],
-    es:["Arquitecto de IA y Datos con <b>15+ años</b> conectando las necesidades de negocio con la implementación integral de plataformas de datos. Desde mis raíces en <b>Oracle</b> y <b>SDG Group</b> hasta <b>12+ años como freelance con mi propia empresa (Mind)</b>, diseño arquitecturas de datos modernas y escalables que hacen a las organizaciones data-driven — y, últimamente, listas para la IA.",
-        "Combino una base técnica sólida con visión estratégica: arquitecturas escalables para IA/ML sobre plataformas serverless y cloud-native, con foco en gobierno del dato, democratización y entrega ágil."]
+    en:["AI/Data Architect with <b>15+ years</b> bridging business needs and end-to-end data platform delivery for large corporations and digital businesses — across <b>8 industries and 4 continents</b>. From my technical roots at <b>Oracle</b> and <b>SDG Group</b> to founding my own <b>practical knowledge lab, Mind</b>, the last two years have been about what really moves the needle: <b>deploying practical, monetizable AI</b> inside organizations.",
+        "I combine a solid technical background with a strategic view: scalable AI/ML architectures on serverless, cloud-native platforms, with a focus on governance, data democratization and agile delivery."],
+    es:["Arquitecto de IA y Datos con <b>15+ años</b> conectando las necesidades de negocio con la implementación integral de plataformas de datos para grandes corporaciones y negocios digitales — en <b>8 industrias y 4 continentes</b>. Desde mis raíces en <b>Oracle</b> y <b>SDG Group</b> hasta fundar mi propio <b>laboratorio de conocimiento práctico, Mind</b>, los últimos dos años han ido de lo que de verdad mueve la aguja: <b>desplegar IA práctica y monetizable</b> dentro de las organizaciones.",
+        "Combino una base técnica sólida con visión estratégica: arquitecturas escalables de IA/ML sobre plataformas serverless y cloud-native, con foco en gobierno del dato, democratización y entrega ágil."]
   },
   stats:{
-    en:[["15+","Years of experience"],["6,500+","Users — JTI global BI"],["300+","KPIs delivered — Mahou"],["~60","Systems harmonized — Schneider"],["25","Real-time sources — Banque Misr"]],
-    es:[["15+","Años de experiencia"],["6.500+","Usuarios — BI global JTI"],["300+","KPIs entregados — Mahou"],["~60","Sistemas armonizados — Schneider"],["25","Fuentes en tiempo real — Banque Misr"]]
+    en:[["20+","Clients"],["25+","Projects"],["15+","Years in data"],["10+","Countries"]],
+    es:[["20+","Clientes"],["25+","Proyectos"],["15+","Años en datos"],["10+","Países"]]
   },
   tech:{
     en:[["Cloud & Infrastructure",["Google Cloud","Microsoft Azure","Terraform","GitHub","Cloud Functions"]],
@@ -215,68 +242,76 @@ const DATA = {
         ["BI y Gobierno del Dato",["Power BI","Qlik","Tableau","Looker","OBIEE","Business Objects","Collibra"]]]
   },
   exp:{
-    en:[["Senior Data Engineer / Architect","Freelancer (Mind)","Jan 2013 – Present","End-to-end data transformation across travel, banking, retail and hospitality. Full autonomy over modern, robust, business-aligned solutions — increasingly focused on AI-ready data architectures."],
-        ["Data & Analytics Engineer / Architect","SDG Consulting","Jan 2011 – Dec 2012","Defined data architectures from scratch in complex, multi-technology enterprise environments; contributed to solution design and project sales."],
-        ["Senior Data / BI Consultant","Oracle Corp. Spain","Nov 2005 – Dec 2010","Grew from intern to Senior Consultant on data engineering, data warehouse modelling and ETL development — the technical foundation of my career."]],
-    es:[["Senior Data Engineer / Arquitecto","Freelance (Mind)","Ene 2013 – Actualidad","Transformación de datos integral en travel, banca, retail y hostelería. Autonomía total sobre soluciones modernas, robustas y alineadas con negocio — cada vez más centrado en arquitecturas listas para IA."],
-        ["Data & Analytics Engineer / Arquitecto","SDG Consulting","Ene 2011 – Dic 2012","Definí arquitecturas de datos desde cero en entornos empresariales complejos y multitecnología; participé en diseño de soluciones y venta de proyectos."],
-        ["Senior Data / BI Consultant","Oracle Corp. España","Nov 2005 – Dic 2010","Pasé de becario a Senior Consultant en data engineering, modelado de data warehouse y ETL — la base técnica de mi carrera."]]
+    en:[["Interim Head of Data","Meeting Doctors","Dec 2025 – Present","Leading the data area and modernizing the stack to enable AI monetization and deployment across the organization (digital health / medical-process digitalization)."],
+        ["Founder & Product Manager","Mind One & Qontexta.ai","2025 – Present","End-to-end leadership of both AI & data products — from vision and product definition to development, launch and ongoing evolution."],
+        ["Founder & Senior Data Engineer / Architect","Mind","2013 – Present","Mind is my own practical knowledge lab: projects, solutions and products around data and organizational optimization. 12+ years leading end-to-end data transformations across travel, banking, retail, hospitality and industry — lately AI-ready architectures and real LLM adoption."],
+        ["Data & Analytics Engineer / Architect","SDG Consulting","2011 – 2012","Defined data architectures from scratch in complex, multi-technology enterprise environments; contributed to solution design and project sales."],
+        ["Senior Data / BI Consultant","Oracle Corp. Spain","2005 – 2010","Grew from intern to Senior Consultant on data engineering, data warehouse modelling and ETL development — the technical foundation of my career."]],
+    es:[["Interim Head of Data","Meeting Doctors","Dic 2025 – Actualidad","Dirección del área de datos y modernización del stack para habilitar la monetización y el despliegue de IA en la organización (salud digital / digitalización de procesos médicos)."],
+        ["Founder & Product Manager","Mind One y Qontexta.ai","2025 – Actualidad","Liderazgo end-to-end de ambos productos de IA y datos: de la visión y definición de producto al desarrollo, lanzamiento y evolución continua."],
+        ["Founder & Senior Data Engineer / Arquitecto","Mind","2013 – Actualidad","Mind es mi propio laboratorio de conocimiento práctico: proyectos, soluciones y productos alrededor del dato y la optimización de las organizaciones. 12+ años liderando transformaciones de datos end-to-end en travel, banca, retail, hostelería e industria — en los últimos años, arquitecturas listas para IA y adopción real de LLMs."],
+        ["Data & Analytics Engineer / Arquitecto","SDG Consulting","2011 – 2012","Definí arquitecturas de datos desde cero en entornos empresariales complejos y multitecnología; participé en diseño de soluciones y venta de proyectos."],
+        ["Senior Data / BI Consultant","Oracle Corp. España","2005 – 2010","Pasé de becario a Senior Consultant en data engineering, modelado de data warehouse y ETL — la base técnica de mi carrera."]]
   },
   feat:{
-    en:[["Hoteles Silken","Hospitality","2024/2025","AI Data Architect / Data Engineer","AI data stack from scratch on GCP (Cloud Functions + pyairbyte, GCS, BigQuery, dbt, Qlik Cloud). Built an AI assistant with <b>Claude + MCP over BigQuery</b> for real-time pricing recommendations."],
-        ["Grupo Cursach","Leisure","2025","AI Architect / Data Engineer","Financial data lake on GCP (BigQuery + dbt). AI agent (<b>Claude + MCP</b>) for conversational treasury analysis that <b>auto-generates Excel reports</b> from natural language."],
-        ["Marugal","Hospitality","2025/2026","Lead Data Solution Architect","Cloud DWH on BigQuery with end-to-end architecture across multiple sources. Technical reference; BI on Qlik; aligned with cloud-migration best practices."],
-        ["Banque Misr Digital","Banking","2021","Big Data Solution Architect","Real-time banking platform on <b>Cloudera</b> with <b>Kafka + Flink</b>, Impala DWH and HBase/Phoenix. Real-time ingestion from <b>25 banking sources</b>."],
-        ["Brico Depôt Iberia","Retail · Kingfisher","2020/2021","Data Solution Architect","Serverless big-data on GCP + Power BI. AI for customer segmentation, demand forecasting & inventory over SAP HANA, Magento & SQL."],
-        ["Travel Intelligence Engine","Travel","2019/2020","Data / AI Solution Architect","Real-time, event-driven recommendation platform on GCP (Pub/Sub, Cloud Functions, BigQuery). Sub-second ML serving across World2Meet, Abreu, TUI & Yalago."]],
-    es:[["Hoteles Silken","Hostelería","2024/2025","AI Data Architect / Data Engineer","Stack de datos con IA desde cero en GCP (Cloud Functions + pyairbyte, GCS, BigQuery, dbt, Qlik Cloud). Asistente de IA con <b>Claude + MCP sobre BigQuery</b> para recomendaciones de precios en tiempo real."],
-        ["Grupo Cursach","Ocio","2025","AI Architect / Data Engineer","Data lake financiero en GCP (BigQuery + dbt). Agente de IA (<b>Claude + MCP</b>) para análisis de tesorería conversacional que <b>genera informes Excel automáticamente</b> desde lenguaje natural."],
-        ["Marugal","Hostelería","2025/2026","Lead Data Solution Architect","DWH cloud en BigQuery con arquitectura integral sobre múltiples fuentes. Referente técnico; BI sobre Qlik; alineado con mejores prácticas de migración cloud."],
-        ["Banque Misr Digital","Banca","2021","Big Data Solution Architect","Plataforma bancaria en tiempo real sobre <b>Cloudera</b> con <b>Kafka + Flink</b>, DWH Impala y HBase/Phoenix. Ingesta en tiempo real de <b>25 fuentes bancarias</b>."],
-        ["Brico Depôt Iberia","Retail · Kingfisher","2020/2021","Data Solution Architect","Big data serverless en GCP + Power BI. IA para segmentación, previsión de demanda e inventario sobre SAP HANA, Magento y SQL."],
-        ["Travel Intelligence Engine","Travel","2019/2020","Data / AI Solution Architect","Plataforma de recomendación event-driven en tiempo real sobre GCP (Pub/Sub, Cloud Functions, BigQuery). Serving de ML sub-segundo en World2Meet, Abreu, TUI y Yalago."]]
+    en:[["Fergus Hotels","Hospitality","2026","AI Deployment Lead","Company-wide AI deployment, piloting <b>Claude</b> across sales, finance and operations.","AI live in core areas, with AI-assisted decisions in everyday work."],
+        ["Jumbogroup","Industrial","2026","AI Architect","AI pilot in finance and sales combining <b>Power BI + Claude + AI self-service</b>.","Finance & sales teams autonomous, far less manual reporting."],
+        ["Hoteles Silken","Hospitality","2024/2025","AI Data Architect / Data Engineer","AI data stack from scratch on GCP. Assistant with <b>Claude + MCP over BigQuery</b> for real-time pricing, auto-applied to the channel manager. MLOps for demand forecasting.","Pricing recommended & applied in real time; data democratized via conversational AI."],
+        ["Grupo Cursach","Leisure","2025","AI Architect / Data Engineer","Financial data lake on GCP. AI agent (<b>Claude + MCP</b>) for conversational treasury analysis.","Treasury analyzed in natural language; Excel reports generated automatically."],
+        ["Marugal","Hospitality","2025/2026","Lead Data Solution Architect","Cloud DWH on BigQuery with end-to-end architecture across multiple sources; BI on Qlik.","Scalable, governed analytics foundation aligned with cloud migration."],
+        ["Banque Misr Digital","Banking","2021","Big Data Solution Architect","Real-time banking platform on <b>Cloudera</b> with <b>Kafka + Flink</b>, Impala DWH and HBase/Phoenix.","Real-time banking operations & analytics over 25 unified sources."]],
+    es:[["Fergus Hotels","Hostelería","2026","AI Deployment Lead","Despliegue de IA en toda la compañía, pilotando <b>Claude</b> en ventas, finanzas y operaciones.","IA operativa en las áreas core, con decisiones asistidas en el día a día."],
+        ["Jumbogroup","Industrial","2026","AI Architect","Pilotaje de IA en finanzas y ventas combinando <b>Power BI + Claude + autoservicio de IA</b>.","Equipos de finanzas y ventas autónomos, menos reporting manual."],
+        ["Hoteles Silken","Hostelería","2024/2025","AI Data Architect / Data Engineer","Data stack con IA desde cero en GCP. Asistente con <b>Claude + MCP sobre BigQuery</b> para pricing en tiempo real, aplicado al channel manager. MLOps para forecasting de demanda.","Pricing recomendado y aplicado en tiempo real; dato democratizado vía IA conversacional."],
+        ["Grupo Cursach","Ocio","2025","AI Architect / Data Engineer","Data lake financiero en GCP. Agente de IA (<b>Claude + MCP</b>) para análisis conversacional de tesorería.","Tesorería en lenguaje natural; informes en Excel generados solos."],
+        ["Marugal","Hostelería","2025/2026","Lead Data Solution Architect","DWH cloud en BigQuery con arquitectura integral sobre múltiples fuentes; BI sobre Qlik.","Base analítica escalable y gobernada, alineada con la migración cloud."],
+        ["Banque Misr Digital","Banca","2021","Big Data Solution Architect","Plataforma bancaria en tiempo real sobre <b>Cloudera</b> con <b>Kafka + Flink</b>, DWH Impala y HBase/Phoenix.","Operaciones bancarias y analítica en tiempo real sobre 25 fuentes unificadas."]]
   },
   moreFree:{
-    en:["<b>Japan Tobacco International</b> · FMCG · 2013/2015 — Global OBIEE BI rollout (TME), 6,500+ users across Europe, US & SE Asia. Led ML & Location Intelligence PoCs.",
-        "<b>Hotelbeds</b> · Travel · 2015/2017 — Oracle BI Publisher + QlikView, then a Hortonworks Big Data platform integrating SAP, Oracle & operational systems.",
-        "<b>World2Meet</b> · Travel · 2018/2019 — Qlik Sense for Finance (SAP P&L), then Snowflake on Azure + dbt + Fivetran for real-time financial insight.",
-        "<b>Fergus Hotels</b> · Hospitality · 2020/2021 — Serverless GCP platform with Airflow/Composer MLOps for demand forecasting & pricing optimization.",
-        "<b>Schneider Electric</b> · Finance, France · 2022/2023 — Collibra governance across ~60 systems (17 SAP ERP + Central Finance) toward a unified P&L.",
-        "<b>JumboDiset</b> · Industrial · 2023/2024 — End-to-end DWH & BI from scratch: PostgreSQL, Jedox EPM, dbt, Power BI."],
-    es:["<b>Japan Tobacco International</b> · FMCG · 2013/2015 — Despliegue global de BI OBIEE (TME), 6.500+ usuarios en Europa, EE.UU. y Sudeste Asiático. PoCs de ML e Inteligencia de Localización.",
-        "<b>Hotelbeds</b> · Travel · 2015/2017 — Oracle BI Publisher + QlikView, y una plataforma Big Data sobre Hortonworks integrando SAP, Oracle y sistemas operacionales.",
-        "<b>World2Meet</b> · Travel · 2018/2019 — Qlik Sense para Finanzas (P&L SAP), y Snowflake en Azure + dbt + Fivetran para insights financieros en tiempo real.",
-        "<b>Fergus Hotels</b> · Hostelería · 2020/2021 — Plataforma serverless en GCP con MLOps en Airflow/Composer para previsión de demanda y precios.",
-        "<b>Schneider Electric</b> · Finanzas, Francia · 2022/2023 — Gobierno con Collibra sobre ~60 sistemas (17 SAP ERP + Central Finance) hacia un P&L unificado.",
-        "<b>JumboDiset</b> · Industrial · 2023/2024 — DWH y BI integral desde cero: PostgreSQL, Jedox EPM, dbt, Power BI."]
+    en:["<b>Travel Intelligence Engine</b> · Travel · 2019/2020 — Real-time ML recommendation platform on GCP, deployed across World2Meet, Abreu, TUI & Yalago. <b>Result:</b> measurable conversion uplift, sub-second serving.",
+        "<b>Brico Depôt Iberia</b> · Retail (Kingfisher) · 2020/2021 — Serverless big-data on GCP + Power BI; ML over SAP HANA, Magento & SQL. <b>Result:</b> forecasting, segmentation & optimized inventory in production.",
+        "<b>Schneider Electric</b> · Finance, France · 2022/2023 — Collibra governance across ~60 systems (17 SAP ERP + Central Finance). <b>Result:</b> unified, automated P&L adopted org-wide.",
+        "<b>JumboDiset</b> · Industrial · 2023/2024 — End-to-end DWH & BI from scratch: PostgreSQL, Jedox, dbt, Power BI. <b>Result:</b> first centralized analytics foundation.",
+        "<b>Japan Tobacco International</b> · FMCG · 2013/2015 — Global OBIEE BI rollout (TME), 6,500+ users. <b>Result:</b> corporate BI standardized across 3 continents.",
+        "<b>Hotelbeds</b> · Travel · 2015/2017 — Hortonworks Big Data platform integrating SAP, Oracle & ops systems. <b>Result:</b> consolidated end-to-end view of operations & finance.",
+        "<b>World2Meet</b> · Travel · 2018/2019 — Snowflake on Azure + dbt + Fivetran; SAP P&L automation. <b>Result:</b> real-time financial insight, far less manual work.",
+        "<b>Fergus Hotels</b> · Hospitality · 2020/2021 — Earlier engagement: serverless GCP + Airflow/Composer MLOps for demand & pricing."],
+    es:["<b>Travel Intelligence Engine</b> · Travel · 2019/2020 — Recomendador ML en tiempo real sobre GCP, desplegado en World2Meet, Abreu, TUI y Yalago. <b>Resultado:</b> mejora medible de conversión, serving sub-segundo.",
+        "<b>Brico Depôt Iberia</b> · Retail (Kingfisher) · 2020/2021 — Big data serverless en GCP + Power BI; ML sobre SAP HANA, Magento y SQL. <b>Resultado:</b> forecasting, segmentación e inventario optimizado.",
+        "<b>Schneider Electric</b> · Finanzas, Francia · 2022/2023 — Gobierno Collibra sobre ~60 sistemas (17 SAP ERP + Central Finance). <b>Resultado:</b> P&L unificado y automatizado adoptado globalmente.",
+        "<b>JumboDiset</b> · Industrial · 2023/2024 — DWH y BI integral desde cero: PostgreSQL, Jedox, dbt, Power BI. <b>Resultado:</b> primera base analítica centralizada.",
+        "<b>Japan Tobacco International</b> · FMCG · 2013/2015 — Rollout global BI OBIEE (TME), 6.500+ usuarios. <b>Resultado:</b> BI corporativo estandarizado en 3 continentes.",
+        "<b>Hotelbeds</b> · Travel · 2015/2017 — Plataforma Big Data Hortonworks integrando SAP, Oracle y operacionales. <b>Resultado:</b> vista consolidada end-to-end de operaciones y finanzas.",
+        "<b>World2Meet</b> · Travel · 2018/2019 — Snowflake en Azure + dbt + Fivetran; automatización de P&L desde SAP. <b>Resultado:</b> insight financiero en tiempo real, mucho menos trabajo manual.",
+        "<b>Fergus Hotels</b> · Hostelería · 2020/2021 — Engagement anterior: serverless en GCP + MLOps Airflow/Composer para demanda y precios."]
   },
   moreEarly:{
     en:["<b>Oracle — Polaris World</b> (Real Estate) — Financial consolidation & reporting DWH (Oracle DB + BI Publisher).",
-        "<b>Oracle — Caixa Penedés</b> (Banking) — Commercial DWH, snowflake model for client-margin analysis (OWB + Business Objects).",
-        "<b>Oracle — Department of Education</b> (Government) — Oracle BI with a custom PL/SQL-in-Java security model for role-based access.",
-        "<b>SDG — Mahou San Miguel</b> (FMCG) — Corporate Balanced Scorecard: 300+ KPIs across ~20 dashboards (OBIEE + SQL Server + Essbase).",
+        "<b>Oracle — Caixa Penedés</b> (Banking) — Commercial DWH, snowflake model for client-margin analysis.",
+        "<b>Oracle — Department of Education</b> (Government) — Oracle BI with custom PL/SQL-in-Java role-based security.",
+        "<b>SDG — Mahou San Miguel</b> (FMCG) — Balanced Scorecard: 300+ KPIs across ~20 dashboards. <b>Result:</b> from manual Excel to centralized, automated performance management.",
         "<b>SDG — Softonic</b> (eCommerce) — First Big Data platform from scratch (Microsoft + Qlik + Pentaho).",
-        "<b>SDG — Abertis</b> (Utilities) — Corporate DWH (Oracle + ODI) with geospatial data modelling.",
-        "<b>SDG — LetsBonus.com</b> (eCommerce) — Corporate DWH in Big Data (Oracle + Pentaho + QlikView); led a team of 4.",
+        "<b>SDG — Abertis</b> (Utilities) — Corporate DWH (Oracle + ODI) with geospatial modelling.",
+        "<b>SDG — LetsBonus.com</b> (eCommerce) — Corporate DWH in Big Data; led a team of 4.",
         "<b>SDG — Mitsubishi Electric</b> (FMCG) — Financial DWH on SAP BW + Business Objects."],
     es:["<b>Oracle — Polaris World</b> (Inmobiliario) — DWH de consolidación y reporting financiero (Oracle DB + BI Publisher).",
-        "<b>Oracle — Caixa Penedés</b> (Banca) — DWH comercial, modelo snowflake para margen de cliente (OWB + Business Objects).",
-        "<b>Oracle — Conselleria de Educación</b> (Admón. pública) — Oracle BI con modelo de seguridad a medida en PL/SQL-en-Java por roles.",
-        "<b>SDG — Mahou San Miguel</b> (FMCG) — Cuadro de Mando Integral: 300+ KPIs en ~20 dashboards (OBIEE + SQL Server + Essbase).",
+        "<b>Oracle — Caixa Penedés</b> (Banca) — DWH comercial, modelo snowflake para margen de cliente.",
+        "<b>Oracle — Conselleria de Educación</b> (Admón. pública) — Oracle BI con seguridad a medida PL/SQL-en-Java por roles.",
+        "<b>SDG — Mahou San Miguel</b> (FMCG) — Cuadro de Mando Integral: 300+ KPIs en ~20 dashboards. <b>Resultado:</b> de Excel manual a gestión del rendimiento centralizada y automatizada.",
         "<b>SDG — Softonic</b> (eCommerce) — Primera plataforma Big Data desde cero (Microsoft + Qlik + Pentaho).",
-        "<b>SDG — Abertis</b> (Utilities) — DWH corporativo (Oracle + ODI) con modelado de datos geoespaciales.",
-        "<b>SDG — LetsBonus.com</b> (eCommerce) — DWH corporativo en Big Data (Oracle + Pentaho + QlikView); equipo de 4 personas.",
+        "<b>SDG — Abertis</b> (Utilities) — DWH corporativo (Oracle + ODI) con modelado geoespacial.",
+        "<b>SDG — LetsBonus.com</b> (eCommerce) — DWH corporativo en Big Data; lideré un equipo de 4.",
         "<b>SDG — Mitsubishi Electric</b> (FMCG) — DWH financiero sobre SAP BW + Business Objects."]
   },
   skills:{
     en:[["AI & Machine Learning",["AI Solution Architecture","MLOps & Model Lifecycle","LLM Integration & Deployment","Real-time AI Systems","AI Strategy & Implementation"]],
         ["Data & Analytics",["Data Architecture & Engineering","Modern Data Stack","Data Modelling (Kimball / Dimensional)","Data Strategy & Governance","Event-Driven Architectures"]],
-        ["Technical Leadership",["AI Project / Program Management","Cross-functional Team Leadership","Strategic & Corporate Thinking","Results-focused Delivery","Stakeholder Management"]],
-        ["Business",["AI Business Value Alignment","Digital Transformation Leadership","Multi-industry Domain Expertise","Innovation & Problem-solving","Agile & Analytical Approach"]]],
+        ["Leadership & Product",["Data Leadership (Interim Head of Data)","AI/Data Product Management","AI Project / Program Management","Cross-functional Team Leadership","Stakeholder Management"]],
+        ["Business",["AI Business Value & Monetization","Digital Transformation Leadership","Multi-industry Domain Expertise","Innovation & Problem-solving","Agile & Analytical Approach"]]],
     es:[["IA y Machine Learning",["Arquitectura de soluciones de IA","MLOps y ciclo de vida de modelos","Integración y despliegue de LLM","Sistemas de IA en tiempo real","Estrategia e implementación de IA"]],
         ["Datos y Analítica",["Arquitectura e ingeniería de datos","Modern Data Stack","Modelado (Kimball / Dimensional)","Estrategia y gobierno del dato","Arquitecturas event-driven"]],
-        ["Liderazgo Técnico",["Gestión de proyectos / programas de IA","Liderazgo de equipos multidisciplinares","Pensamiento estratégico y corporativo","Entrega orientada a resultados","Gestión de stakeholders"]],
-        ["Negocio",["Alineación IA–valor de negocio","Liderazgo en transformación digital","Experiencia en múltiples industrias","Innovación y resolución de problemas","Enfoque ágil y analítico"]]]
+        ["Liderazgo y Producto",["Liderazgo de datos (Interim Head of Data)","Product Management de IA/datos","Gestión de proyectos / programas de IA","Liderazgo de equipos multidisciplinares","Gestión de stakeholders"]],
+        ["Negocio",["Valor de negocio y monetización de la IA","Liderazgo en transformación digital","Experiencia en múltiples industrias","Innovación y resolución de problemas","Enfoque ágil y analítico"]]]
   },
   edu:{
     en:[["2001–2005","Engineer in Computer Science (Business Management)","Universidad de Castilla-La Mancha"],
@@ -287,10 +322,6 @@ const DATA = {
         ["2014","Project Management Professional (PMP)","PMI"],
         ["2020","Professional Scrum Master","Scrum.org"],
         ["2021","Cloud Digital Leader","Google"]]
-  },
-  avail:{
-    en:["Eligible for Contractor Role","Remote · Short trips accepted"],
-    es:["Disponible para rol Contractor","Remoto · Se aceptan viajes cortos"]
   }
 };
 
@@ -305,16 +336,15 @@ function render(){
   const sec=(ic,key,inner)=>`<section class="reveal"><div class="kicker"><span class="ic">${ic}</span><h2>${u[key]}</h2></div>${inner}</section>`;
 
   let html="";
-  html+=sec("👤","s_about",d.summary[lang].map(p=>`<p class="lead">${p}</p>`).join(""));
-  html+=sec("📈","s_numbers",`<div class="stats">${d.stats[lang].map(s=>`<div class="stat"><div class="n">${s[0]}</div><div class="l">${s[1]}</div></div>`).join("")}</div>`);
+  html+=sec("✨","s_about",d.summary[lang].map(p=>`<p class="lead">${p}</p>`).join(""));
+  html+=sec("📊","s_numbers",`<div class="stats">${d.stats[lang].map(s=>`<div class="stat"><div class="n gt">${s[0]}</div><div class="l">${s[1]}</div></div>`).join("")}</div>`);
   html+=sec("🧩","s_tech",d.tech[lang].map(g=>`<div class="techgroup"><h3>${g[0]}</h3><div class="pills">${g[1].map(p=>`<span class="pill">${p}</span>`).join("")}</div></div>`).join(""));
   html+=sec("💼","s_exp",`<div class="tl">${d.exp[lang].map(j=>`<div class="job"><h3>${j[0]} — <span class="co">${j[1]}</span></h3><div class="when">${j[2]}</div><p>${j[3]}</p></div>`).join("")}</div>`);
-  html+=sec("🗂️","s_feat",`<div class="grid">${d.feat[lang].map(c=>`<div class="card"><div class="top"><h3>${c[0]}</h3><span class="ind">${c[1]}</span></div><div class="yr">${c[2]}</div><div class="rolep">${c[3]}</div><p>${c[4]}</p></div>`).join("")}</div>`
+  html+=sec("🚀","s_feat",`<div class="grid">${d.feat[lang].map(c=>`<div class="card"><div class="top"><h3>${c[0]}</h3><span class="ind">${c[1]}</span></div><div class="yr">${c[2]}</div><div class="rolep">${c[3]}</div><p>${c[4]}</p><div class="res"><span>→</span> ${c[5]}</div></div>`).join("")}</div>`
     +`<details><summary>${u.moreFree}</summary><ul>${d.moreFree[lang].map(li=>`<li>${li}</li>`).join("")}</ul></details>`
     +`<details><summary>${u.moreEarly}</summary><ul>${d.moreEarly[lang].map(li=>`<li>${li}</li>`).join("")}</ul></details>`);
   html+=sec("🎯","s_skills",`<div class="twocol">${d.skills[lang].map(b=>`<div class="skillblock"><h3>${b[0]}</h3><ul>${b[1].map(s=>`<li>${s}</li>`).join("")}</ul></div>`).join("")}</div>`);
   html+=sec("🎓","s_edu",d.edu[lang].map(e=>`<div class="eduitem"><span class="y">${e[0]}</span><span><span class="t">${e[1]}</span> <span class="s">· ${e[2]}</span></span></div>`).join(""));
-  html+=sec("📌","s_avail",`<div class="pills">${d.avail[lang].map(a=>`<span class="pill">${a}</span>`).join("")}</div>`);
 
   document.getElementById("app").innerHTML=html;
   observe();
