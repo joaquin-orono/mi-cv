@@ -1,9 +1,11 @@
 <div align="center">
 
+<img src="src/foto-cv-jo.jpg" alt="Joaquin Oroño Bugnon" width="160" style="border-radius:50%" />
+
 # Joaquin Oroño Bugnon
 **Arquitecto de IA y Datos**
 
-15+ años convirtiendo necesidades de negocio en plataformas de datos fiables y listas para IA.
+15+ años convirtiendo necesidades de negocio en plataformas de datos end-to-end — ahora centrado en desplegar IA práctica y monetizable dentro de las organizaciones.
 
 [![Ubicación](https://img.shields.io/badge/Barcelona-España-5b8db8?style=flat)](https://maps.google.com/?q=Barcelona,Spain)
 [![Email](https://img.shields.io/badge/joaquin.orono@gmail.com-d96b5a?style=flat&logo=gmail&logoColor=white)](mailto:joaquin.orono@gmail.com)
@@ -16,7 +18,7 @@
 
 ---
 
-> Arquitecto de IA y Datos con **más de 15 años** conectando las necesidades de negocio con la implementación integral de plataformas de datos. Desde mis raíces en **Oracle** y **SDG Group** hasta **más de 12 años como freelance con mi propia empresa (Mind)**, diseño arquitecturas de datos modernas y escalables que hacen a las organizaciones *data-driven* — y, últimamente, listas para la IA.
+> Arquitecto de IA y Datos con **15+ años** conectando las necesidades de negocio con la implementación integral de plataformas de datos para grandes corporaciones y negocios digitales — en **8 industrias y 4 continentes**. Desde mis raíces en **Oracle** y **SDG Group** hasta fundar mi propio **laboratorio de conocimiento práctico, Mind**, los últimos dos años han ido de lo que de verdad mueve la aguja: **desplegar IA práctica y monetizable** dentro de las organizaciones.
 
 Combino una base técnica sólida con visión estratégica: arquitecturas escalables para IA/ML sobre plataformas serverless y cloud-native, con foco en gobierno del dato, democratización y entrega ágil.
 
@@ -24,9 +26,9 @@ Combino una base técnica sólida con visión estratégica: arquitecturas escala
 
 ## Destacados
 
-| Experiencia | Mayor despliegue BI | KPIs entregados | Sistemas armonizados | Fuentes en tiempo real |
-|:---:|:---:|:---:|:---:|:---:|
-| **15+ años** | **6.500+ usuarios** (JTI) | **300+** (Mahou) | **~60** (Schneider) | **25** (Banque Misr) |
+| Clientes | Proyectos | Años en datos | Países |
+|:---:|:---:|:---:|:---:|
+| **20+** | **25+** | **15+** | **10+** |
 
 ---
 
@@ -84,18 +86,28 @@ Combino una base técnica sólida con visión estratégica: arquitecturas escala
 
 ## Experiencia
 
-### Senior Data Engineer / Arquitecto — Freelance (Mind)
-`Ene 2013 – Actualidad`
+### Interim Head of Data — Meeting Doctors
+`Dic 2025 – Actualidad`
 
-A través de mi propia empresa **Mind**, lidero proyectos de transformación de datos de principio a fin en travel, banca, retail y hostelería. Autonomía total sobre el diseño y la entrega de soluciones de datos modernas, robustas y alineadas con el negocio — cada vez más centrado en arquitecturas de datos listas para la IA.
+Dirección del área de datos y modernización del stack para habilitar la monetización y el despliegue de IA en la organización (salud digital / digitalización de procesos médicos).
+
+### Founder & Product Manager — Mind One y Qontexta.ai
+`2025 – Actualidad`
+
+Liderazgo end-to-end de ambos productos de IA y datos: de la visión y definición de producto al desarrollo, lanzamiento y evolución continua.
+
+### Founder & Senior Data Engineer / Arquitecto — Mind
+`2013 – Actualidad`
+
+**Mind** es mi propio laboratorio de conocimiento práctico: proyectos, soluciones y productos alrededor del dato y la optimización de las organizaciones. 12+ años con autonomía total liderando transformaciones de datos end-to-end en travel, banca, retail, hostelería e industria — y, en los últimos años, arquitecturas listas para IA y adopción real de LLMs.
 
 ### Data & Analytics Engineer / Arquitecto — SDG Consulting
-`Ene 2011 – Dic 2012`
+`2011 – 2012`
 
 Definí arquitecturas de datos desde cero en entornos empresariales complejos y multitecnología, y participé en el diseño de soluciones y la venta de proyectos.
 
 ### Senior Data / BI Consultant — Oracle Corp. España
-`Nov 2005 – Dic 2010`
+`2005 – 2010`
 
 Pasé de becario a Senior Consultant en data engineering, modelado de data warehouse y desarrollo de ETL — la base técnica de mi carrera.
 
@@ -107,10 +119,31 @@ Pasé de becario a Senior Consultant en data engineering, modelado de data wareh
 <tr>
 <td width="50%" valign="top">
 
+**Fergus Hotels** · Hostelería · `2026`
+*AI Deployment Lead*
+
+Despliegue de IA en toda la compañía, pilotando **Claude** en ventas, finanzas y operaciones.
+**Resultado →** IA operativa en las áreas core, con decisiones asistidas en el día a día.
+
+</td>
+<td width="50%" valign="top">
+
+**Jumbogroup** · Industrial · `2026`
+*AI Architect*
+
+Pilotaje de IA en finanzas y ventas combinando **Power BI + Claude + autoservicio de IA**.
+**Resultado →** Equipos de finanzas y ventas autónomos, menos dependencia del reporting manual.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 **Hoteles Silken** · Hostelería · `2024/2025`
 *AI Data Architect / Data Engineer*
 
-Stack de datos con IA desde cero en GCP (Cloud Functions + `pyairbyte`, GCS, BigQuery, dbt, Qlik Cloud). Asistente de IA con **Claude + MCP sobre BigQuery** para recomendaciones de precios en tiempo real.
+Data stack con IA desde cero en GCP. Asistente con **Claude + MCP sobre BigQuery** para pricing en tiempo real, aplicado automáticamente al channel manager. MLOps para forecasting de demanda.
+**Resultado →** Pricing recomendado y aplicado en tiempo real; acceso al dato democratizado vía IA conversacional.
 
 </td>
 <td width="50%" valign="top">
@@ -118,7 +151,8 @@ Stack de datos con IA desde cero en GCP (Cloud Functions + `pyairbyte`, GCS, Big
 **Grupo Cursach** · Ocio · `2025`
 *AI Architect / Data Engineer*
 
-Data lake financiero en GCP (BigQuery + dbt). Agente de IA (**Claude + MCP**) para análisis de tesorería conversacional que **genera informes Excel automáticamente** desde lenguaje natural.
+Data lake financiero en GCP. Agente de IA (**Claude + MCP**) para análisis conversacional de tesorería.
+**Resultado →** Tesorería analizada en lenguaje natural; informes financieros en Excel generados solos.
 
 </td>
 </tr>
@@ -128,7 +162,8 @@ Data lake financiero en GCP (BigQuery + dbt). Agente de IA (**Claude + MCP**) pa
 **Marugal** · Hostelería · `2025/2026`
 *Lead Data Solution Architect*
 
-DWH cloud en BigQuery con arquitectura integral sobre múltiples sistemas origen. Referente técnico para iniciativas de datos; BI sobre Qlik; alineado con las mejores prácticas de migración cloud.
+DWH cloud en BigQuery con arquitectura integral sobre múltiples sistemas origen; BI sobre Qlik.
+**Resultado →** Base analítica escalable y gobernada, alineada con la estrategia de migración cloud.
 
 </td>
 <td width="50%" valign="top">
@@ -136,41 +171,26 @@ DWH cloud en BigQuery con arquitectura integral sobre múltiples sistemas origen
 **Banque Misr Digital** · Banca · `2021`
 *Big Data Solution Architect*
 
-Plataforma bancaria en tiempo real sobre **Cloudera** con **Kafka + Flink**, DWH en Impala y HBase/Phoenix. Ingesta en tiempo real de **25 fuentes bancarias**.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**Brico Depôt Iberia** · Retail (Kingfisher) · `2020/2021`
-*Data Solution Architect / Data Engineer*
-
-Arquitectura big data serverless en GCP + Power BI. IA para segmentación de clientes, previsión de demanda y optimización de inventario sobre SAP HANA, Magento y SQL.
-
-</td>
-<td width="50%" valign="top">
-
-**Travel Intelligence Engine** · Travel · `2019/2020`
-*Data / AI Solution Architect*
-
-Plataforma de recomendación event-driven en tiempo real sobre GCP (Pub/Sub, Cloud Functions, BigQuery, Dataform, Terraform). Serving de ML sub-segundo en World2Meet, Abreu, TUI y Yalago.
+Plataforma bancaria en tiempo real sobre **Cloudera** con **Kafka + Flink**, DWH Impala y HBase/Phoenix.
+**Resultado →** Operaciones bancarias y analítica en tiempo real sobre **25 fuentes unificadas**.
 
 </td>
 </tr>
 </table>
 
 <details>
-<summary><b>Más proyectos — Freelance</b></summary>
+<summary><b>Más proyectos — Mind / Freelance</b></summary>
 
 <br/>
 
-- **Japan Tobacco International** · FMCG · `2013/2015` — *Data & Analytics Solution Architect.* Despliegue global de BI OBIEE (TME), 6.500+ usuarios en Europa, EE. UU. y Sudeste Asiático. Lideré PoCs de ML e Inteligencia de Localización.
-- **Hotelbeds** · Travel · `2015/2017` — *Data Architect.* Oracle BI Publisher + QlikView, y después una plataforma Big Data sobre Hortonworks integrando SAP, Oracle y sistemas operacionales.
-- **World2Meet** · Travel · `2018/2019` — *Data Architect / Team Lead.* Qlik Sense para Finanzas (P&L de SAP), y después Snowflake en Azure + dbt + Fivetran para insights financieros en tiempo real.
-- **Fergus Hotels** · Hostelería · `2020/2021` — *Data/AI Solution Architect.* Plataforma serverless en GCP con MLOps en Airflow/Composer para previsión de demanda y optimización de precios.
-- **Schneider Electric** · Finanzas, Francia · `2022/2023` — *Global Finance Data Architect.* Gobierno del dato con Collibra sobre ~60 sistemas (17 SAP ERP + Central Finance) hacia un P&L unificado.
-- **JumboDiset** · Industrial · `2023/2024` — *Data Architect / Engineer.* DWH y BI integral desde cero: PostgreSQL, Jedox EPM, dbt y Power BI.
+- **Travel Intelligence Engine** · Travel · `2019/2020` — *Data / AI Solution Architect.* Plataforma de recomendación ML event-driven en tiempo real sobre GCP. Desplegada en World2Meet, Abreu, TUI y Yalago. **Resultado:** mejora medible de la conversión y respuesta sub-segundo en producción.
+- **Brico Depôt Iberia** · Retail (Kingfisher) · `2020/2021` — *Data Solution Architect.* Big data serverless en GCP + Power BI; ML sobre SAP HANA, Magento y SQL. **Resultado:** forecasting, segmentación e inventario optimizado en producción.
+- **Schneider Electric** · Finanzas, Francia · `2022/2023` — *Global Finance Data Architect.* Gobierno con Collibra sobre ~60 sistemas (17 SAP ERP + Central Finance). **Resultado:** P&L unificado y automatizado; convenciones de gobierno adoptadas en toda la organización.
+- **JumboDiset** · Industrial · `2023/2024` — *Data Architect / Engineer.* DWH y BI integral desde cero: PostgreSQL, Jedox EPM, dbt, Power BI. **Resultado:** primera base analítica centralizada del grupo.
+- **Japan Tobacco International** · FMCG · `2013/2015` — *Data & Analytics Solution Architect.* Rollout global de BI OBIEE (TME), 6.500+ usuarios en Europa, EE.UU. y Sudeste Asiático. **Resultado:** BI corporativo estandarizado en 3 continentes, reemplazando herramientas legacy.
+- **Hotelbeds** · Travel · `2015/2017` — *Data Architect.* Oracle BI Publisher + QlikView, y una plataforma Big Data sobre Hortonworks integrando SAP, Oracle y sistemas operacionales. **Resultado:** vista consolidada end-to-end de operaciones y finanzas.
+- **World2Meet** · Travel · `2018/2019` — *Data Architect / Team Lead.* Qlik Sense para Finanzas (P&L de SAP), y después Snowflake en Azure + dbt + Fivetran. **Resultado:** insights financieros en tiempo real con mucho menos esfuerzo manual.
+- **Fergus Hotels** · Hostelería · `2020/2021` — *Data/AI Solution Architect.* Engagement anterior: plataforma serverless en GCP con MLOps en Airflow/Composer para previsión de demanda y precios.
 
 </details>
 
@@ -185,7 +205,7 @@ Plataforma de recomendación event-driven en tiempo real sobre GCP (Pub/Sub, Clo
 - **Conselleria de Educación** (Administración pública) — *BI Solution Architect.* Oracle BI para datos educativos regionales con un modelo de seguridad a medida en PL/SQL-en-Java para acceso por roles.
 
 **SDG Consulting**
-- **Mahou San Miguel** (FMCG) — *Data/BI Solution Architect.* Cuadro de Mando Integral corporativo: 300+ KPIs en ~20 dashboards (OBIEE + SQL Server + Essbase). Reporte a CIO y CFO.
+- **Mahou San Miguel** (FMCG) — *Data/BI Solution Architect.* Cuadro de Mando Integral corporativo: 300+ KPIs en ~20 dashboards (OBIEE + SQL Server + Essbase). **Resultado:** de Excel manual a gestión del rendimiento centralizada y automatizada.
 - **Softonic** (eCommerce) — *Data Architect.* Primera plataforma Big Data desde cero (stack Microsoft + Qlik + Pentaho).
 - **Abertis** (Utilities) — *DWH Architect.* DWH corporativo (Oracle + ODI) con modelado de datos geoespaciales.
 - **LetsBonus.com** (eCommerce) — *BI/Data Architect.* DWH corporativo en entorno Big Data (Oracle + Pentaho + QlikView); lideré un equipo de 4 personas.
@@ -218,15 +238,15 @@ Plataforma de recomendación event-driven en tiempo real sobre GCP (Pub/Sub, Clo
 </td>
 <td valign="top" width="50%">
 
-**Liderazgo Técnico**
+**Liderazgo y Producto**
+- Liderazgo de datos (Interim Head of Data)
+- Product Management de IA/datos
 - Gestión de proyectos / programas de IA
 - Liderazgo de equipos multidisciplinares
-- Pensamiento estratégico y corporativo
-- Entrega orientada a resultados
-- Comunicación técnica y gestión de stakeholders
+- Gestión de stakeholders
 
 **Negocio**
-- Alineación de la IA con el valor de negocio
+- Valor de negocio y monetización de la IA
 - Liderazgo en transformación digital
 - Experiencia en múltiples industrias
 - Mentalidad de innovación y resolución de problemas
