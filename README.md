@@ -18,9 +18,9 @@
 
 ---
 
-> AI/Data Architect with **15+ years** bridging business needs and end-to-end data platform delivery for large corporations and digital businesses, **leading multiple parallel projects and multinational, multidisciplinary teams** toward a common goal. From my technical roots at **Oracle** and **SDG Group** to founding my own **practical knowledge lab, Mind**, the last two years have been about what really moves the needle: **deploying practical, monetizable AI** inside organizations.
+> AI/Data Architect with **15+ years** bridging business needs and end-to-end data platform delivery for large corporations and digital businesses, **leading multiple parallel projects and multinational, multidisciplinary teams** toward a common goal. From my technical roots at **Oracle** and **SDG Group** to founding my own **practical knowledge lab: Mind**. Over the last two years I've focused on what truly delivers impact: **deploying practical, monetizable AI** inside organizations.
 
-I combine a solid technical background with a strategic view: scalable architectures for AI/ML on serverless, cloud-native platforms, plus a focus on governance, data democratization and agile delivery.
+I combine a solid technical background with a holistic, strategic view of the organization: scalable, AI-ready data architectures on serverless, cloud-native platforms, with a focus on governance, data democratization and agile delivery — so the business clearly sees the value.
 
 ---
 
@@ -272,7 +272,7 @@ Real-time banking platform on **Cloudera** with **Kafka + Flink**, Impala DWH an
 ## Availability
 
 ![Open to](https://img.shields.io/badge/Open_to-Project--based_engagements-5b8db8?style=flat)
-![Partner](https://img.shields.io/badge/Your-Project_partner-6d5ef0?style=flat)
+![Partner](https://img.shields.io/badge/Your-Project_partner-2563eb?style=flat)
 ![Remote](https://img.shields.io/badge/Remote-Short_trips_accepted-7aa874?style=flat)
 
 ---

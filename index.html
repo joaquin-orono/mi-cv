@@ -11,9 +11,9 @@
 <style>
   :root{
     --ink:#151551; --ink-soft:#3a3a6b; --body:#45456b; --muted:#7a7a98;
-    --violet:#5b4bd6; --violet-2:#7c6cf0; --cyan:#38bdf8;
-    --grad:linear-gradient(120deg,#151551 0%,#4338ca 42%,#6d5ef0 72%,#38bdf8 118%);
-    --grad-soft:linear-gradient(120deg,#5b4bd6,#7c6cf0 60%,#38bdf8);
+    --violet:#2563eb; --violet-2:#3b82f6; --cyan:#38bdf8;
+    --grad:linear-gradient(120deg,#151551 0%,#1e3a8a 42%,#2563eb 72%,#38bdf8 118%);
+    --grad-soft:linear-gradient(120deg,#2563eb,#3b82f6 60%,#38bdf8);
     --bg:#ffffff; --soft:#f6f7fc; --brd:#ececf5; --brd-2:#e0e0ef;
     --shadow:0 1px 2px rgba(21,21,81,.04),0 10px 30px rgba(21,21,81,.07);
     --radius:18px; --maxw:1000px;
@@ -40,12 +40,13 @@
 
   header.hero{position:relative;overflow:hidden;padding:74px 0 40px}
   header.hero::before{content:"";position:absolute;inset:0;z-index:0;background:
-    radial-gradient(680px 420px at 8% -10%, rgba(91,75,214,.16), transparent 60%),
+    radial-gradient(680px 420px at 8% -10%, rgba(37,99,235,.16), transparent 60%),
     radial-gradient(560px 420px at 98% 0%, rgba(56,189,248,.16), transparent 55%),
-    radial-gradient(500px 360px at 60% 120%, rgba(124,108,240,.10), transparent 60%);}
+    radial-gradient(500px 360px at 60% 120%, rgba(59,130,246,.10), transparent 60%);}
   .hero .wrap{position:relative;z-index:1;display:flex;gap:38px;align-items:center;flex-wrap:wrap}
-  .avatar{flex:0 0 auto;background:var(--grad);padding:4px;border-radius:50%;box-shadow:0 12px 34px rgba(67,56,202,.28)}
-  .avatar img{display:block;width:138px;height:138px;border-radius:50%;object-fit:cover;border:4px solid #fff}
+  .avatar{flex:0 0 auto;background:var(--grad);padding:4px;border-radius:50%;box-shadow:0 12px 34px rgba(37,99,235,.28)}
+  .avatar .frame{width:138px;height:138px;border-radius:50%;overflow:hidden;border:4px solid #fff;background:#fff}
+  .avatar img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 16%;transform:scale(1.45);transform-origin:50% 16%}
   .hero .intro{flex:1 1 340px;min-width:280px}
   .eyebrow{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--violet);font-weight:500}
   h1{font-size:clamp(34px,6vw,56px);line-height:1.02;margin:8px 0 4px;font-weight:800;letter-spacing:-.025em;color:var(--ink)}
@@ -56,7 +57,7 @@
   .chip{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--brd-2);padding:8px 14px;border-radius:999px;font-size:13.5px;font-weight:600;color:var(--ink-soft);transition:.18s;box-shadow:var(--shadow)}
   .chip:hover{border-color:var(--violet);color:var(--violet);transform:translateY(-1px)}
   .chip .dot{width:8px;height:8px;border-radius:50%;background:var(--violet-2);box-shadow:0 0 10px var(--violet-2)}
-  .avail{background:linear-gradient(120deg,rgba(91,75,214,.10),rgba(56,189,248,.12));border-color:#d8d8f2}
+  .avail{background:linear-gradient(120deg,rgba(37,99,235,.10),rgba(56,189,248,.12));border-color:#d3e1fb}
 
   section{padding:32px 0;border-top:1px solid var(--brd)}
   .kicker{display:flex;align-items:center;gap:10px;margin-bottom:18px}
@@ -94,7 +95,7 @@
   .card:hover::before{opacity:1}
   .card .top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
   .card h3{font-size:16.5px;font-weight:700;color:var(--ink)}
-  .card .ind{font-size:11px;color:var(--violet);background:rgba(91,75,214,.08);border:1px solid #e2e0f6;padding:3px 9px;border-radius:999px;white-space:nowrap;font-weight:700}
+  .card .ind{font-size:11px;color:var(--violet);background:rgba(37,99,235,.08);border:1px solid #dbe4fb;padding:3px 9px;border-radius:999px;white-space:nowrap;font-weight:700}
   .card .rolep{color:var(--violet);font-weight:600;font-size:13px;margin:5px 0 7px}
   .card p{font-size:14px;color:var(--body)}
   .card .yr{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--muted)}
@@ -123,7 +124,7 @@
   .eduitem .s{color:var(--muted);font-size:13.5px}
 
   footer{position:relative;overflow:hidden;padding:54px 0;text-align:center;border-top:1px solid var(--brd)}
-  footer::before{content:"";position:absolute;inset:0;background:radial-gradient(600px 300px at 50% 120%,rgba(91,75,214,.12),transparent 70%)}
+  footer::before{content:"";position:absolute;inset:0;background:radial-gradient(600px 300px at 50% 120%,rgba(37,99,235,.12),transparent 70%)}
   footer .wrap{position:relative;z-index:1}
   footer .big{font-size:clamp(24px,4vw,38px);font-weight:800;letter-spacing:-.03em;margin-bottom:8px}
   footer .sub{color:var(--muted);margin-bottom:18px}
@@ -165,8 +166,8 @@
 
 <header class="hero">
   <div class="wrap">
-    <div class="avatar" onerror="this.style.display='none'">
-      <img src="src/foto-cv-jo.jpg" alt="Joaquin Oroño Bugnon" onerror="this.closest('.avatar').style.display='none'" />
+    <div class="avatar">
+      <div class="frame"><img src="src/foto-cv-jo.jpg" alt="Joaquin Oroño Bugnon" onerror="this.closest('.avatar').style.display='none'" /></div>
     </div>
     <div class="intro">
       <div class="eyebrow" data-t="eyebrow"></div>
@@ -217,10 +218,10 @@ const DATA = {
         moreFree:"Más proyectos — Mind / Freelance",moreEarly:"Inicios — Oracle y SDG"}
   },
   summary:{
-    en:["AI/Data Architect with <b>15+ years</b> bridging business needs and end-to-end data platform delivery for large corporations and digital businesses, <b>leading multiple parallel projects and multinational, multidisciplinary teams</b> toward a common goal. From my technical roots at <b>Oracle</b> and <b>SDG Group</b> to founding my own <b>practical knowledge lab, Mind</b>, the last two years have been about what really moves the needle: <b>deploying practical, monetizable AI</b> inside organizations.",
-        "I combine a solid technical background with a strategic view: scalable AI/ML architectures on serverless, cloud-native platforms, with a focus on governance, data democratization and agile delivery."],
-    es:["Arquitecto de IA y Datos con <b>15+ años</b> conectando las necesidades de negocio con la implementación integral de plataformas de datos para grandes corporaciones y negocios digitales, <b>liderando múltiples proyectos en paralelo y equipos multinacionales y multidisciplinares</b> hacia un objetivo común. Desde mis raíces en <b>Oracle</b> y <b>SDG Group</b> hasta fundar mi propio <b>laboratorio de conocimiento práctico, Mind</b>, los últimos dos años han ido de lo que de verdad mueve la aguja: <b>desplegar IA práctica y monetizable</b> dentro de las organizaciones.",
-        "Combino una base técnica sólida con visión estratégica: arquitecturas escalables de IA/ML sobre plataformas serverless y cloud-native, con foco en gobierno del dato, democratización y entrega ágil."]
+    en:["AI/Data Architect with <b>15+ years</b> bridging business needs and end-to-end data platform delivery for large corporations and digital businesses, <b>leading multiple parallel projects and multinational, multidisciplinary teams</b> toward a common goal. From my technical roots at <b>Oracle</b> and <b>SDG Group</b> to founding my own <b>practical knowledge lab: Mind</b>. Over the last two years I've focused on what truly delivers impact: <b>deploying practical, monetizable AI</b> inside organizations.",
+        "I combine a solid technical background with a holistic, strategic view of the organization: scalable, AI-ready data architectures on serverless, cloud-native platforms, with a focus on governance, data democratization and agile delivery — so the business clearly sees the value."],
+    es:["Arquitecto de IA y Datos con <b>15+ años</b> conectando las necesidades de negocio con la implementación integral de plataformas de datos para grandes corporaciones y negocios digitales, <b>liderando múltiples proyectos en paralelo y equipos multinacionales y multidisciplinares</b> hacia un objetivo común. Desde mis raíces en <b>Oracle</b> y <b>SDG Group</b> hasta fundar mi propio <b>laboratorio de conocimiento práctico: Mind</b>. En los últimos dos años me he centrado en lo que de verdad genera impacto: <b>desplegar IA práctica y monetizable</b> dentro de las organizaciones.",
+        "Combino una sólida base técnica con una visión estratégica integral de la organización: diseño arquitecturas de datos escalables y AI-ready sobre plataformas serverless y cloud-native, con foco en gobierno del dato, democratización y entrega ágil — de forma que el negocio perciba el valor."]
   },
   stats:{
     en:[["20+","Clients"],["60+","Projects"],["15+","Years in data"],["20+","Teams led"]],

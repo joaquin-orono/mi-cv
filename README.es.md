@@ -18,9 +18,9 @@
 
 ---
 
-> Arquitecto de IA y Datos con **15+ años** conectando las necesidades de negocio con la implementación integral de plataformas de datos para grandes corporaciones y negocios digitales, **liderando múltiples proyectos en paralelo y equipos multinacionales y multidisciplinares** hacia un objetivo común. Desde mis raíces en **Oracle** y **SDG Group** hasta fundar mi propio **laboratorio de conocimiento práctico, Mind**, los últimos dos años han ido de lo que de verdad mueve la aguja: **desplegar IA práctica y monetizable** dentro de las organizaciones.
+> Arquitecto de IA y Datos con **15+ años** conectando las necesidades de negocio con la implementación integral de plataformas de datos para grandes corporaciones y negocios digitales, **liderando múltiples proyectos en paralelo y equipos multinacionales y multidisciplinares** hacia un objetivo común. Desde mis raíces en **Oracle** y **SDG Group** hasta fundar mi propio **laboratorio de conocimiento práctico, Mind**. En los últimos dos años me he centrado en lo que de verdad genera impacto: **desplegar IA práctica y monetizable** dentro de las organizaciones.
 
-Combino una base técnica sólida con visión estratégica: arquitecturas escalables para IA/ML sobre plataformas serverless y cloud-native, con foco en gobierno del dato, democratización y entrega ágil.
+Combino una sólida base técnica con una visión estratégica integral de la organización: diseño arquitecturas de datos escalables y *AI-ready* sobre plataformas serverless y cloud-native, con foco en gobierno del dato, democratización y entrega ágil — de forma que el negocio perciba el valor.
 
 ---
 
@@ -272,7 +272,7 @@ Plataforma bancaria en tiempo real sobre **Cloudera** con **Kafka + Flink**, DWH
 ## Disponibilidad
 
 ![Proyectos](https://img.shields.io/badge/Disponible_para-Proyectos-5b8db8?style=flat)
-![Partner](https://img.shields.io/badge/Tu-Partner_de_proyecto-6d5ef0?style=flat)
+![Partner](https://img.shields.io/badge/Tu-Partner_de_proyecto-2563eb?style=flat)
 ![Remoto](https://img.shields.io/badge/Remoto-Se_aceptan_viajes_cortos-7aa874?style=flat)
 
 ---
