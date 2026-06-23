@@ -26,9 +26,9 @@ Combino una base técnica sólida con visión estratégica: arquitecturas escala
 
 ## Destacados
 
-| Clientes | Proyectos | Años en datos | Países |
+| Clientes | Proyectos | Años en datos | Industrias |
 |:---:|:---:|:---:|:---:|
-| **20+** | **60+** | **15+** | **10+** |
+| **20+** | **60+** | **15+** | **8+** |
 
 ---
 
