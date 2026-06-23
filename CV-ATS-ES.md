@@ -8,7 +8,7 @@ Disponible para proyectos — tu partner durante el proyecto. En remoto (se acep
 
 ## Resumen Profesional
 
-Arquitecto de IA y Datos con más de 15 años de experiencia conectando las necesidades de negocio con la implementación integral de plataformas de datos para grandes corporaciones y negocios digitales de rápido crecimiento — en 8 industrias y 4 continentes. Comencé en Oracle trabajando en data warehousing y BI, y amplié mi experiencia en entornos empresariales complejos en SDG Group. Durante los últimos 12+ años he trabajado a través de mi propio laboratorio de conocimiento práctico (Mind), liderando y entregando soluciones de datos de principio a fin. En los últimos dos años me he centrado en lo que de verdad mueve la aguja: desplegar IA práctica y monetizable dentro de las organizaciones — plataformas de datos modernas que habilitan la adopción de IA, el procesamiento en tiempo real y la analítica avanzada sobre arquitecturas serverless y cloud-native. Combino una sólida base técnica con visión estratégica para definir e implementar arquitecturas de datos escalables que dan soporte a iniciativas de IA y ML, además de construir culturas data-driven mediante gobierno del dato, democratización y prácticas ágiles.
+Arquitecto de IA y Datos con más de 15 años de experiencia conectando las necesidades de negocio con la implementación integral de plataformas de datos para grandes corporaciones y negocios digitales de rápido crecimiento, liderando múltiples proyectos en paralelo y equipos multinacionales y multidisciplinares hacia objetivos comunes. Comencé en Oracle trabajando en data warehousing y BI, y amplié mi experiencia en entornos empresariales complejos en SDG Group. Durante los últimos 12+ años he trabajado a través de mi propio laboratorio de conocimiento práctico (Mind), liderando y entregando soluciones de datos de principio a fin. En los últimos dos años me he centrado en lo que de verdad mueve la aguja: desplegar IA práctica y monetizable dentro de las organizaciones — plataformas de datos modernas que habilitan la adopción de IA, el procesamiento en tiempo real y la analítica avanzada sobre arquitecturas serverless y cloud-native. Combino una sólida base técnica con visión estratégica para definir e implementar arquitecturas de datos escalables que dan soporte a iniciativas de IA y ML, además de construir culturas data-driven mediante gobierno del dato, democratización y prácticas ágiles.
 
 ## Competencias Clave
 
@@ -16,7 +16,7 @@ IA y Machine Learning: Arquitectura de soluciones de IA, MLOps y gestión del ci
 
 Datos y Analítica: Arquitectura e ingeniería de datos, Modern Data Stack (dbt, Snowflake, BigQuery, Azure, Databricks, Airflow, Python, SQL), modelado de datos (Kimball, Dimensional), estrategia y gobierno del dato, arquitecturas event-driven.
 
-Liderazgo y Producto: Liderazgo de datos (Interim Head of Data), Product Management de IA/datos, gestión de proyectos/programas de IA, liderazgo de equipos multidisciplinares, gestión de stakeholders.
+Liderazgo y Producto: Liderazgo de datos (Interim Head of Data), gestión de múltiples proyectos en paralelo hacia un objetivo, liderazgo de equipos multinacionales y multidisciplinares, Product Management de IA/datos, gestión de stakeholders.
 
 Negocio: Valor de negocio y monetización de la IA, liderazgo en transformación digital, experiencia en múltiples industrias, mentalidad de innovación y resolución de problemas, enfoque ágil y analítico.
 

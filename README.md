@@ -18,7 +18,7 @@
 
 ---
 
-> AI/Data Architect with **15+ years** bridging business needs and end-to-end data platform delivery for large corporations and digital businesses — across **8 industries and 4 continents**. From my technical roots at **Oracle** and **SDG Group** to founding my own **practical knowledge lab, Mind**, the last two years have been about what really moves the needle: **deploying practical, monetizable AI** inside organizations.
+> AI/Data Architect with **15+ years** bridging business needs and end-to-end data platform delivery for large corporations and digital businesses, **leading multiple parallel projects and multinational, multidisciplinary teams** toward a common goal. From my technical roots at **Oracle** and **SDG Group** to founding my own **practical knowledge lab, Mind**, the last two years have been about what really moves the needle: **deploying practical, monetizable AI** inside organizations.
 
 I combine a solid technical background with a strategic view: scalable architectures for AI/ML on serverless, cloud-native platforms, plus a focus on governance, data democratization and agile delivery.
 
@@ -26,9 +26,9 @@ I combine a solid technical background with a strategic view: scalable architect
 
 ## Highlights
 
-| Clients | Projects | Years in data | Industries |
+| Clients | Projects | Years in data | Teams led |
 |:---:|:---:|:---:|:---:|
-| **20+** | **60+** | **15+** | **8+** |
+| **20+** | **60+** | **15+** | **20+** |
 
 ---
 
@@ -240,9 +240,9 @@ Real-time banking platform on **Cloudera** with **Kafka + Flink**, Impala DWH an
 
 **Leadership & Product**
 - Data Leadership (Interim Head of Data)
+- Managing multiple parallel projects to a goal
+- Leading multinational, multidisciplinary teams
 - AI/Data Product Management
-- AI Project / Program Management
-- Cross-functional Team Leadership
 - Stakeholder Management
 
 **Business**

@@ -18,7 +18,7 @@
 
 ---
 
-> Arquitecto de IA y Datos con **15+ años** conectando las necesidades de negocio con la implementación integral de plataformas de datos para grandes corporaciones y negocios digitales — en **8 industrias y 4 continentes**. Desde mis raíces en **Oracle** y **SDG Group** hasta fundar mi propio **laboratorio de conocimiento práctico, Mind**, los últimos dos años han ido de lo que de verdad mueve la aguja: **desplegar IA práctica y monetizable** dentro de las organizaciones.
+> Arquitecto de IA y Datos con **15+ años** conectando las necesidades de negocio con la implementación integral de plataformas de datos para grandes corporaciones y negocios digitales, **liderando múltiples proyectos en paralelo y equipos multinacionales y multidisciplinares** hacia un objetivo común. Desde mis raíces en **Oracle** y **SDG Group** hasta fundar mi propio **laboratorio de conocimiento práctico, Mind**, los últimos dos años han ido de lo que de verdad mueve la aguja: **desplegar IA práctica y monetizable** dentro de las organizaciones.
 
 Combino una base técnica sólida con visión estratégica: arquitecturas escalables para IA/ML sobre plataformas serverless y cloud-native, con foco en gobierno del dato, democratización y entrega ágil.
 
@@ -26,9 +26,9 @@ Combino una base técnica sólida con visión estratégica: arquitecturas escala
 
 ## Destacados
 
-| Clientes | Proyectos | Años en datos | Industrias |
+| Clientes | Proyectos | Años en datos | Equipos liderados |
 |:---:|:---:|:---:|:---:|
-| **20+** | **60+** | **15+** | **8+** |
+| **20+** | **60+** | **15+** | **20+** |
 
 ---
 
@@ -240,9 +240,9 @@ Plataforma bancaria en tiempo real sobre **Cloudera** con **Kafka + Flink**, DWH
 
 **Liderazgo y Producto**
 - Liderazgo de datos (Interim Head of Data)
+- Gestión de múltiples proyectos en paralelo hacia un objetivo
+- Liderazgo de equipos multinacionales y multidisciplinares
 - Product Management de IA/datos
-- Gestión de proyectos / programas de IA
-- Liderazgo de equipos multidisciplinares
 - Gestión de stakeholders
 
 **Negocio**

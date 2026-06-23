@@ -8,7 +8,7 @@ Available for project-based engagements — your partner for the project. Remote
 
 ## Professional Summary
 
-AI/Data Architect with 15+ years of experience bridging business needs with end-to-end data platform implementation for large corporations and fast-growing digital businesses — across 8 industries and 4 continents. Started at Oracle working on data warehousing and BI, then expanded across complex enterprise environments at SDG Group. For the past 12+ years, working through my own practical knowledge lab (Mind), leading and delivering end-to-end data solutions. In the last two years, focused on what really moves the needle: deploying practical, monetizable AI inside organizations — modern data platforms enabling AI adoption, real-time processing and advanced analytics on serverless, cloud-native architectures. Combines a deep technical background with a strategic mindset to define and implement scalable data architectures that support AI and ML initiatives, while building data-driven cultures through robust data governance, democratization and agile practices.
+AI/Data Architect with 15+ years of experience bridging business needs with end-to-end data platform implementation for large corporations and fast-growing digital businesses, leading multiple parallel projects and multinational, multidisciplinary teams toward shared objectives. Started at Oracle working on data warehousing and BI, then expanded across complex enterprise environments at SDG Group. For the past 12+ years, working through my own practical knowledge lab (Mind), leading and delivering end-to-end data solutions. In the last two years, focused on what really moves the needle: deploying practical, monetizable AI inside organizations — modern data platforms enabling AI adoption, real-time processing and advanced analytics on serverless, cloud-native architectures. Combines a deep technical background with a strategic mindset to define and implement scalable data architectures that support AI and ML initiatives, while building data-driven cultures through robust data governance, democratization and agile practices.
 
 ## Core Skills
 
@@ -16,7 +16,7 @@ AI & Machine Learning: AI Solution Architecture, MLOps & Model Lifecycle Managem
 
 Data & Analytics: Data Architecture & Engineering, Modern Data Stack (dbt, Snowflake, BigQuery, Azure, Databricks, Airflow, Python, SQL), Data Modelling (Kimball, Dimensional), Data Strategy & Governance, Event-Driven Architectures.
 
-Leadership & Product: Data Leadership (Interim Head of Data), AI/Data Product Management, AI Project/Program Management, Cross-functional Team Leadership, Stakeholder Management.
+Leadership & Product: Data Leadership (Interim Head of Data), managing multiple parallel projects to a goal, leading multinational and multidisciplinary teams, AI/Data Product Management, Stakeholder Management.
 
 Business: AI Business Value & Monetization, Digital Transformation Leadership, Multi-industry Domain Expertise, Innovation & Problem-solving Mindset, Agile & Analytical Approach.
 
