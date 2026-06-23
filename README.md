@@ -28,7 +28,7 @@ I combine a solid technical background with a strategic view: scalable architect
 
 | Clients | Projects | Years in data | Countries |
 |:---:|:---:|:---:|:---:|
-| **20+** | **25+** | **15+** | **10+** |
+| **20+** | **60+** | **15+** | **10+** |
 
 ---
 
