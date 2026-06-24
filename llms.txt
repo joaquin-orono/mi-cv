@@ -1,0 +1,73 @@
+# Joaquin Oroño Bugnon — Freelance AI & Data Architect
+
+> Freelance, independent AI & Data Architect based in Barcelona, Spain, with 15+ years
+> bridging business needs and end-to-end data platform delivery for large corporations and
+> digital businesses. Available as a project partner to bring practical, monetizable AI into
+> organizations — remote, short trips accepted.
+
+## Who
+
+- **Name:** Joaquin Oroño Bugnon
+- **Title:** Freelance AI & Data Architect (also: AI / Data Architect, Data Architect, AI Architect)
+- **Availability:** Freelance / independent — open to project-based engagements as your data & AI partner. Remote, short trips accepted.
+- **Location:** Barcelona, Spain
+- **Email:** joaquin.orono@gmail.com
+- **Phone / WhatsApp:** +34 677 05 17 33
+- **Languages:** English, Spanish
+
+## What I do
+
+I help organizations turn AI and data into real, monetizable value. As a freelance partner I lead
+end-to-end data architecture and AI adoption: from strategy and scalable, AI-ready data platforms
+(serverless, cloud-native) to data governance, democratization, MLOps and the practical deployment
+of LLMs inside the business. I lead multiple parallel projects and multinational, multidisciplinary
+teams toward a common goal.
+
+Why hire me for your project: 15+ years of delivery across travel, banking, retail, hospitality,
+industry and government; equally comfortable with deep technical architecture and the strategic,
+business-value view that makes leadership see the return.
+
+## Tech
+
+- **Cloud & infrastructure:** Google Cloud, Microsoft Azure, Terraform, GitHub
+- **Data platforms & warehousing:** BigQuery, Snowflake, Databricks, PostgreSQL, Cloudera, Oracle, Impala, SAP BW/HANA
+- **Ingestion / transformation / orchestration:** dbt, Fivetran, Airbyte, Talend Stitch, Airflow / Composer, Dataform, Jedox
+- **Streaming & big data:** Confluent Kafka, Apache Flink, Pub/Sub, Hadoop, Hortonworks, HBase / Phoenix
+- **AI / ML / LLM:** Anthropic Claude, Model Context Protocol (MCP), MLOps, Python, Machine Learning
+- **BI & governance:** Power BI, Qlik, Tableau, Looker, Collibra
+
+## Selected results
+
+- **Hoteles Silken** (hospitality, 2024/2025) — AI data stack from scratch on GCP; Claude + MCP over BigQuery for real-time pricing auto-applied to the channel manager; MLOps for demand forecasting.
+- **Grupo Cursach** (leisure, 2025) — Financial data lake on GCP with a Claude + MCP agent for conversational treasury analysis; Excel reports generated automatically.
+- **Schneider Electric** (finance, France, 2022/2023) — Collibra governance across ~60 systems (17 SAP ERP + Central Finance); unified, automated P&L adopted org-wide.
+- **Banque Misr Digital** (banking, 2021) — Real-time banking platform on Cloudera with Kafka + Flink, Impala DWH and HBase/Phoenix over 25 unified sources.
+- **Japan Tobacco International** (FMCG, 2013/2015) — Global BI rollout to 6,500+ users across 3 continents.
+
+## Experience
+
+- **Interim Head of Data — Meeting Doctors** (Dec 2025 – present) — leading the data area and modernizing the stack to enable AI monetization.
+- **Founder & Product Manager — Mind One & Qontexta.ai** (2025 – present) — end-to-end leadership of two AI & data products.
+- **Founder & Senior Data Engineer / Architect — Mind** (2013 – present) — practical knowledge lab; 12+ years of end-to-end data transformations and AI adoption.
+- **Data & Analytics Engineer / Architect — SDG Consulting** (2011 – 2012).
+- **Senior Data / BI Consultant — Oracle Corp. Spain** (2005 – 2010).
+
+## Education & certifications
+
+- Engineer in Computer Science (Business Management) — Universidad de Castilla-La Mancha (2001–2005)
+- Project Management Professional (PMP) — PMI (2014)
+- Professional Scrum Master — Scrum.org (2020)
+- Cloud Digital Leader — Google (2021)
+
+## Links
+
+- Website / CV: https://joaquin-orono.github.io/mi-cv/
+- GitHub: https://github.com/joaquin-orono
+- Mind One: https://getmindapp.io
+- Qontexta.ai: https://qontexta.ai
+
+## Hire me
+
+Looking for a freelance AI architect or data architect for your project? I'm available as an
+independent project partner. The best way to reach me is email (joaquin.orono@gmail.com) or
+WhatsApp (+34 677 05 17 33).
