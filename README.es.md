@@ -91,7 +91,7 @@ Combino una sólida base técnica con una visión estratégica integral de la or
 
 Dirección del área de datos y modernización del stack para habilitar la monetización y el despliegue de IA en la organización (salud digital / digitalización de procesos médicos).
 
-### Founder & Product Manager — [Mind One](https://getmindapp.io) y [Qontexta.ai](https://qontexta.ai)
+### Founder & Product Manager — [Mind One](https://wearemind.io/one/) y [Qontexta.ai](https://qontexta.ai)
 `2025 – Actualidad`
 
 Liderazgo end-to-end de ambos productos de IA y datos: de la visión y definición de producto al desarrollo, lanzamiento y evolución continua.

@@ -36,7 +36,7 @@ Diciembre 2025 – Actualidad | Barcelona, España (Salud Digital)
 
 Dirección del área de datos y modernización del stack para habilitar la monetización y el despliegue de IA en la organización, en un contexto de salud digital / digitalización de procesos médicos.
 
-### Founder & Product Manager — Mind One (getmindapp.io) y Qontexta.ai (qontexta.ai)
+### Founder & Product Manager — Mind One (wearemind.io/one) y Qontexta.ai (qontexta.ai)
 2025 – Actualidad
 
 Liderazgo end-to-end de dos productos propios de IA y datos, desde la visión y la definición de producto al desarrollo, lanzamiento y evolución continua.
