@@ -64,7 +64,7 @@ business-value view that makes leadership see the return.
 - Website / CV: https://joaquin-orono.github.io/mi-cv/
 - GitHub: https://github.com/joaquin-orono
 - Mind: https://wearemind.io
-- Mind One: https://wearemind.io/one/
+- Mind One: https://www.getmindapp.io
 - Qontexta.ai: https://qontexta.ai
 - Meeting Doctors: https://meetingdoctors.com/
 

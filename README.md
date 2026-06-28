@@ -91,7 +91,7 @@ I combine a solid technical background with a holistic, strategic view of the or
 
 Leading the data area and modernizing the stack to enable AI monetization and deployment across the organization (digital health / medical-process digitalization).
 
-### Founder & Product Manager — [Mind One](https://wearemind.io/one/) & [Qontexta.ai](https://qontexta.ai)
+### Founder & Product Manager — [Mind One](https://www.getmindapp.io) & [Qontexta.ai](https://qontexta.ai)
 `2025 – Present`
 
 End-to-end leadership of both AI & data products — from vision and product definition to development, launch and ongoing evolution.
