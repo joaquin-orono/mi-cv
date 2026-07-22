@@ -231,15 +231,65 @@
     header.hero{padding:46px 0 22px}
     .hero .wrap{gap:24px}
   }
+  /* Cookie consent banner */
+  .cc{position:fixed;left:0;right:0;bottom:0;z-index:100;display:none;padding:0 22px 18px}
+  .cc.show{display:block}
+  .cc-in{max-width:var(--maxw);margin:0 auto;background:#fff;border:1px solid var(--brd-2);border-radius:var(--radius);
+    box-shadow:0 4px 12px rgba(21,21,81,.08),0 16px 44px rgba(21,21,81,.16);
+    padding:16px 20px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+  .cc-txt{flex:1 1 320px;font-size:13.5px;line-height:1.55;color:var(--body)}
+  .cc-btns{display:flex;gap:8px;flex-shrink:0}
+  .cc-btn{border:1px solid var(--brd-2);background:#fff;color:var(--ink);padding:9px 18px;border-radius:999px;
+    font-size:13px;font-weight:700;cursor:pointer;transition:.18s;font-family:inherit}
+  .cc-btn:hover{border-color:var(--violet);color:var(--violet)}
+  .cc-btn.pri{background:var(--grad-soft);border-color:transparent;color:#fff}
+  .cc-btn.pri:hover{filter:brightness(1.08);color:#fff}
+  @media(max-width:560px){.cc-btns{width:100%}.cc-btn{flex:1}}
+
   @media print{
     body{background:#fff}
     header.hero::before,footer::before{display:none}
-    .bar,.controls,#printBtn{display:none!important}
+    .bar,.controls,#printBtn,.cc{display:none!important}
     .reveal{opacity:1!important;transform:none!important}
     .card,.job,.stat{break-inside:avoid}
     @page{margin:13mm}
   }
 </style>
+
+<!-- Google Analytics 4 — Consent Mode v2: no cookies are written until the visitor accepts -->
+<script>
+  /* 1. Paste your GA4 Measurement ID here (Admin > Data streams > Web). */
+  window.GA_ID  = 'G-RTRLBEZLBG';
+  window.CC_KEY = 'cc-consent';
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  window.gtag = gtag;
+
+  var ccSaved = null;
+  try { ccSaved = localStorage.getItem(window.CC_KEY); } catch(e){}
+
+  /* Deny everything by default; only analytics_storage flips, and only on accept. */
+  gtag('consent','default',{
+    ad_storage:'denied',
+    ad_user_data:'denied',
+    ad_personalization:'denied',
+    analytics_storage: ccSaved === 'granted' ? 'granted' : 'denied',
+    functionality_storage:'granted',
+    security_storage:'granted'
+  });
+
+  /* Stays dormant while the placeholder ID is in place. */
+  window.GA_READY = window.GA_ID.indexOf('XXXX') === -1;
+  if (window.GA_READY){
+    var gaS = document.createElement('script');
+    gaS.async = true;
+    gaS.src = 'https://www.googletagmanager.com/gtag/js?id=' + window.GA_ID;
+    document.head.appendChild(gaS);
+    gtag('js', new Date());
+    gtag('config', window.GA_ID, { anonymize_ip:true });
+  }
+</script>
 </head>
 <body>
 
@@ -370,6 +420,17 @@
   </div>
 </footer>
 
+<!-- Cookie consent (GDPR) — shown only once a real GA4 ID is configured -->
+<div class="cc" id="cc" role="dialog" aria-label="Cookie consent">
+  <div class="cc-in">
+    <div class="cc-txt" data-t="ccMsg">This site uses Google Analytics to understand how it is used. Nothing is stored on your device until you accept.</div>
+    <div class="cc-btns">
+      <button class="cc-btn" id="ccNo" data-t="ccNo">Decline</button>
+      <button class="cc-btn pri" id="ccYes" data-t="ccYes">Accept</button>
+    </div>
+  </div>
+</div>
+
 <script>
 const DATA = {
   ui:{
@@ -380,7 +441,9 @@ const DATA = {
         cta:"Open to project-based engagements — your partner for the project, remote, short trips accepted.",getintouch:"Email me",
         s_about:"About",s_numbers:"At a glance",s_tech:"Tech Stack",s_exp:"Experience",
         s_feat:"Selected Projects",s_skills:"Skills",s_edu:"Education & Certifications",
-        moreFree:"More projects — Mind / Freelance",moreEarly:"Early career — Oracle & SDG"},
+        moreFree:"More projects — Mind / Freelance",moreEarly:"Early career — Oracle & SDG",
+        ccMsg:"This site uses Google Analytics to understand how it is used. Nothing is stored on your device until you accept.",
+        ccYes:"Accept",ccNo:"Decline"},
     es:{print:"PDF",eyebrow:"IA · Datos · Inteligencia",role:"Arquitecto Freelance de IA y Datos",
         slogan:"",slogan2:"Hablemos de datos e IA.",
         tagline:"15+ años entregando arquitectura de datos end-to-end, liderando múltiples proyectos y equipos multinacionales y multidisciplinares.",
@@ -388,7 +451,9 @@ const DATA = {
         cta:"Disponible para proyectos — tu partner durante el proyecto, en remoto, con viajes cortos.",getintouch:"Escríbeme",
         s_about:"Sobre mí",s_numbers:"De un vistazo",s_tech:"Stack Tecnológico",s_exp:"Experiencia",
         s_feat:"Proyectos Seleccionados",s_skills:"Competencias",s_edu:"Formación y Certificaciones",
-        moreFree:"Más proyectos — Mind / Freelance",moreEarly:"Inicios — Oracle y SDG"}
+        moreFree:"Más proyectos — Mind / Freelance",moreEarly:"Inicios — Oracle y SDG",
+        ccMsg:"Esta web usa Google Analytics para entender cómo se utiliza. No se guarda nada en tu dispositivo hasta que aceptes.",
+        ccYes:"Aceptar",ccNo:"Rechazar"}
   },
   summary:{
     en:["AI/Data Architect with <b>15+ years</b> bridging business needs and end-to-end data platform delivery for large corporations and digital businesses, <b>leading multiple parallel projects and multinational, multidisciplinary teams</b> toward a common goal. From my technical roots at <b>Oracle</b> and <b>SDG Group</b> to founding my own <b>practical knowledge lab: Mind</b>. Over the last two years I've focused on what truly delivers impact: <b>deploying practical, monetizable AI</b> inside organizations.",
@@ -537,6 +602,21 @@ document.getElementById("lang").addEventListener("click",e=>{
   render();
 });
 document.getElementById("printBtn").addEventListener("click",()=>window.print());
+
+/* Cookie consent — only surfaces once a real GA4 ID is set in the head script. */
+(function(){
+  const cc=document.getElementById("cc");
+  if(!cc||!window.GA_READY) return;
+  let saved=null; try{saved=localStorage.getItem(window.CC_KEY);}catch(e){}
+  if(!saved) cc.classList.add("show");
+  function choose(v){
+    try{localStorage.setItem(window.CC_KEY,v);}catch(e){}
+    if(v==="granted"&&window.gtag) gtag('consent','update',{analytics_storage:'granted'});
+    cc.classList.remove("show");
+  }
+  document.getElementById("ccYes").addEventListener("click",()=>choose("granted"));
+  document.getElementById("ccNo").addEventListener("click",()=>choose("denied"));
+})();
 
 render();
 </script>
