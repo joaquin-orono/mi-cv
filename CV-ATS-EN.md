@@ -61,7 +61,7 @@ Key projects:
 - Japan Tobacco International (FMCG), 2013–2015 — Data & Analytics Solution Architect. Global OBIEE BI rollout (TME), 6,500+ users across Europe, US and Southeast Asia. Result: corporate BI standardized across 3 continents, replacing legacy tools.
 - Hotelbeds (Travel), 2015–2017 — Data Architect. Hortonworks Big Data platform integrating SAP, Oracle and operational systems, with QlikView as transversal BI. Result: consolidated end-to-end view of operations and finance.
 - World2Meet (Travel), 2018–2019 — Data Architect / Team Lead. Snowflake on Azure + dbt + Fivetran; SAP-based P&L automation with Qlik Sense. Result: real-time financial insight with far less manual reporting.
-- Fergus Hotels (Hospitality), 2020–2021 — Data/AI Solution Architect. Earlier engagement: serverless Google Cloud platform with Airflow (Composer) MLOps for demand forecasting and pricing optimization.
+- Fergus Hotels (Hospitality), 2015–2025 — Data/AI Solution Architect. Earlier engagement: serverless Google Cloud platform with Airflow (Composer) MLOps for demand forecasting and pricing optimization.
 
 ### Data & Analytics Engineer / Architect — SDG Consulting
 January 2011 – December 2012

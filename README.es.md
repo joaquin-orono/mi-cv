@@ -128,11 +128,11 @@ Cuadro de Mando Integral corporativo de principio a fin con **300+ KPIs** en ~20
 </td>
 <td width="50%" valign="top">
 
-**Caixa Penedés** · Banca · `2005/2010`
-*ETL Developer*
+**Schneider Electric** · Finanzas, Francia · `2022/2023`
+*Global Finance Data Architect*
 
-Data Warehouse comercial con modelo snowflake para análisis de margen de cliente (Oracle Warehouse Builder + Business Objects), integrado después en el core del banco.
-**Resultado →** Analítica comercial adoptada en los sistemas core del banco.
+Gobierno con Collibra sobre **~60 sistemas** (17 instancias SAP ERP + SAP Central Finance).
+**Resultado →** P&L unificado y automatizado; convenciones de gobierno adoptadas en toda la organización.
 
 </td>
 </tr>
@@ -148,11 +148,11 @@ Despliegue de IA en toda la compañía, pilotando **Claude** en ventas, finanzas
 </td>
 <td width="50%" valign="top">
 
-**Hotelbeds** · Travel · `2015/2017`
-*Data Architect*
+**JumboDiset** · Industrial · `2023/2024`
+*Data & AI Architect*
 
-Plataforma Big Data Hortonworks integrando SAP, Oracle y sistemas operacionales, con QlikView como BI transversal.
-**Resultado →** Vista consolidada end-to-end de operaciones y finanzas.
+DWH y BI integral desde cero: **PostgreSQL, Jedox EPM, dbt, Power BI**.
+**Resultado →** Primera base analítica centralizada del grupo.
 
 </td>
 </tr>
@@ -187,12 +187,11 @@ Arquitectura big data serverless en GCP + Power BI con ML sobre SAP HANA Cloud, 
 - **Marugal** · Hostelería · `2025/2026` — *Lead Data Solution Architect.* DWH cloud en BigQuery con arquitectura integral sobre múltiples sistemas origen; BI sobre Qlik. **Resultado:** base analítica escalable y gobernada, alineada con la migración cloud.
 - **Hoteles Silken** · Hostelería · `2024/2025` — *AI Data Architect / Engineer.* Data stack con IA desde cero en GCP; asistente con Claude + MCP sobre BigQuery para pricing en tiempo real, aplicado al channel manager; MLOps para forecasting de demanda. **Resultado:** pricing aplicado en tiempo real; dato democratizado vía IA conversacional.
 - **Grupo Cursach** · Ocio · `2025` — *AI Architect / Data Engineer.* Data lake financiero en GCP; agente de IA (Claude + MCP) para análisis conversacional de tesorería. **Resultado:** tesorería en lenguaje natural; informes en Excel generados solos.
-- **JumboDiset** · Industrial · `2023/2024` — *Data Architect / Engineer.* DWH y BI integral desde cero: PostgreSQL, Jedox EPM, dbt, Power BI. **Resultado:** primera base analítica centralizada del grupo.
-- **Schneider Electric** · Finanzas, Francia · `2022/2023` — *Global Finance Data Architect.* Gobierno con Collibra sobre ~60 sistemas (17 SAP ERP + Central Finance). **Resultado:** P&L unificado y automatizado; convenciones de gobierno adoptadas en toda la organización.
 - **Banque Misr Digital** · Banca · `2021` — *Big Data Solution Architect.* Plataforma en tiempo real sobre Cloudera con Kafka + Flink, DWH Impala y HBase/Phoenix. **Resultado:** operaciones bancarias y analítica en tiempo real sobre 25 fuentes unificadas.
 - **Travel Intelligence Engine** · Travel · `2019/2020` — *Data / AI Solution Architect.* Plataforma de recomendación ML event-driven en tiempo real sobre GCP. Desplegada en World2Meet, Abreu, TUI y Yalago. **Resultado:** mejora medible de la conversión y respuesta sub-segundo en producción.
 - **World2Meet** · Travel · `2018/2019` — *Data Architect / Team Lead.* Qlik Sense para Finanzas (P&L de SAP), y después Snowflake en Azure + dbt + Fivetran. **Resultado:** insights financieros en tiempo real con mucho menos esfuerzo manual.
-- **Fergus Hotels** · Hostelería · `2020/2021` — *Data/AI Solution Architect.* Engagement anterior: plataforma serverless en GCP con MLOps en Airflow/Composer para previsión de demanda y precios.
+- **Hotelbeds** · Travel · `2015/2017` — *Data Architect.* Plataforma Big Data Hortonworks integrando SAP, Oracle y sistemas operacionales, con QlikView como BI transversal. **Resultado:** vista consolidada end-to-end de operaciones y finanzas.
+- **Fergus Hotels** · Hostelería · `2015/2025` — *Data/AI Solution Architect.* Engagement anterior: plataforma serverless en GCP con MLOps en Airflow/Composer para previsión de demanda y precios.
 
 </details>
 
@@ -202,6 +201,7 @@ Arquitectura big data serverless en GCP + Power BI con ML sobre SAP HANA Cloud, 
 <br/>
 
 **Oracle Corp. España**
+- **Caixa Penedés** (Banca) — *ETL Developer.* DWH comercial con modelo snowflake para análisis de margen de cliente (Oracle Warehouse Builder + Business Objects), integrado después en el core del banco.
 - **Polaris World** (Inmobiliario) — *BI Developer.* DWH de consolidación y reporting financiero (Oracle DB + BI Publisher sobre eBusiness Suite).
 - **Conselleria de Educación** (Administración pública) — *BI Solution Architect.* Oracle BI para datos educativos regionales con un modelo de seguridad a medida en PL/SQL-en-Java para acceso por roles.
 
