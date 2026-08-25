@@ -59,8 +59,8 @@ Key projects:
 - Schneider Electric (Finance, France), 2022–2023 — Global Finance Data Architect. Architected and unified Finance data foundation using Collibra governance across ~60 systems (17 SAP ERP instances + SAP Central Finance) and 900 companies. Result: unified, automated P&L and governance conventions adopted org-wide.
 - JumboDiset (Industrial), 2023–2024 — Data Architect / Data Engineer. End-to-end DWH & BI from scratch (PostgreSQL, Jedox EPM, dbt, Power BI). Result: first centralized analytics foundation for the group.
 - Japan Tobacco International (FMCG), 2013–2015 — Data & Analytics Solution Architect. Global OBIEE BI rollout (TME), 6,500+ users across Europe, US and Southeast Asia. Result: corporate BI standardized across 3 continents, replacing legacy tools.
-- Hotelbeds (Travel), 2014–2019 — Data Architect. Hortonworks Big Data platform integrating SAP, Oracle and operational systems, with QlikView as transversal BI. Result: consolidated end-to-end view of operations and finance.
-- World2Meet (Travel), 2018–2022 — Data Architect / Team Lead. Snowflake on Azure + dbt + Fivetran; SAP-based P&L automation with Qlik Sense. Led the platform rollout across all business divisions. Result: real-time financial insight with far less manual reporting.
+- Hotelbeds (Travel), 2014–2019 — Data Architect. Multiple projects: Hortonworks Big Data platform integrating SAP, Oracle and operational systems; BI Publisher as core application for transactional reporting; Oracle Finance Management for financial consolidation; Qlik as corporate dashboarding tool; support in creating the data governance area. Result: consolidated end-to-end view of operations and finance.
+- World2Meet (Travel), 2018–2022 — Data Architect / Team Lead. Snowflake on Azure + dbt + Fivetran; SAP-based P&L automation with Qlik Sense. Led the analytics rollout across all business divisions and the creation of the data department, unifying sources into a single view of the company. Result: a data-driven organization, with real-time financial insight and far less manual reporting.
 
 ### Data & Analytics Engineer / Architect — SDG Consulting
 January 2011 – December 2012
