@@ -1,6 +1,6 @@
 # Joaquin Oroño Bugnon
 
-AI / Data Architect
+Data & AI Architect
 
 Barcelona, Spain | +34 677 05 17 33 | joaquin.orono@gmail.com
 
@@ -8,7 +8,7 @@ Available for project-based engagements — your partner for the project. Remote
 
 ## Professional Summary
 
-AI/Data Architect with 15+ years of experience bridging business needs with end-to-end data platform implementation for large corporations and fast-growing digital businesses, leading multiple parallel projects and multinational, multidisciplinary teams toward shared objectives. Started at Oracle working on data warehousing and BI, then expanded across complex enterprise environments at SDG Group. For the past 12+ years, working through my own practical knowledge lab (Mind), leading and delivering end-to-end data solutions. Over the last two years, focused on what truly delivers impact: deploying practical, monetizable AI inside organizations — modern data platforms enabling AI adoption, real-time processing and advanced analytics on serverless, cloud-native architectures. Combines a deep technical background with a strategic mindset to define and implement scalable data architectures that support AI and ML initiatives, while building data-driven cultures through robust data governance, democratization and agile practices.
+Data & AI Architect with 15+ years of experience bridging business needs with end-to-end data platform implementation for large corporations and fast-growing digital businesses, leading multiple parallel projects and multinational, multidisciplinary teams toward shared objectives. Started at Oracle working on data warehousing and BI, then expanded across complex enterprise environments at SDG Group. For the past 12+ years, working through my own practical knowledge lab (Mind), leading and delivering end-to-end data solutions. Over the last two years, focused on what truly delivers impact: deploying practical, monetizable AI inside organizations — modern data platforms enabling AI adoption, real-time processing and advanced analytics on serverless, cloud-native architectures. Combines a deep technical background with a strategic mindset to define and implement scalable data architectures that support AI and ML initiatives, while building data-driven cultures through robust data governance, democratization and agile practices.
 
 ## Core Skills
 
@@ -41,27 +41,26 @@ Leading the data area and modernizing the stack to enable AI monetization and de
 
 End-to-end leadership of two proprietary AI & data products, from vision and product definition to development, launch and ongoing evolution.
 
-### Founder & Senior Data Engineer / Architect — Mind (own practical knowledge lab)
+### Founder · AI & Data Architect — Mind (own practical knowledge lab)
 January 2013 – Present | Barcelona, Spain
 
 Mind is my own practical knowledge lab and home base: where I stay at the forefront of the field, put the newest market solutions into practice and turn them into real ways to bring AI into organizations. Leading data transformation projects across travel, banking, retail, hospitality and industry with full autonomy over end-to-end design and implementation; in recent years, increasingly focused on AI-ready data architectures and real LLM adoption.
 
 Key projects:
 
-- Fergus Hotels (Hospitality), 2026 — AI Deployment Lead. Company-wide AI deployment, piloting Claude across sales, finance and operations. Result: AI live in core areas, with AI-assisted decisions in everyday work.
+- Fergus Hotels (Hospitality), 2015–2026 — Data & AI Head. Led the company's data & AI rollout end-to-end: serverless Google Cloud platform with Airflow (Composer) MLOps for demand forecasting and pricing optimization, then company-wide AI deployment piloting Claude across sales, finance and operations. Result: AI live in core areas, with AI-assisted decisions in everyday work.
 - Jumbogroup (Industrial), 2026 — AI Architect. AI pilot in finance and sales combining Power BI, Claude and AI self-service. Result: autonomous finance and sales teams, far less manual reporting.
 - Hoteles Silken (Hospitality), 2024–2025 — AI Data Architect / Data Engineer. AI-powered data stack from scratch on Google Cloud (Cloud Functions with pyairbyte, Cloud Storage, BigQuery, dbt, Qlik Cloud) with MLOps for sales forecasting and demand prediction. AI assistant integrating Anthropic Claude with MCP connectivity to BigQuery for real-time pricing recommendations, auto-applied to the channel manager. Result: pricing recommended and applied in real time; data access democratized via conversational AI.
 - Grupo Cursach (Leisure), 2025 — AI Architect / Data Engineer. Financial data lake on Google Cloud (BigQuery + dbt) with an AI agent (Anthropic Claude + MCP over BigQuery) for conversational treasury analysis. Result: treasury analyzed in natural language; Excel financial reports generated automatically.
 - Marugal (Hospitality), 2025–2026 — Lead Data Solution Architect. Cloud Data Warehouse on Google BigQuery with end-to-end architecture across multiple source systems; BI on Qlik. Result: scalable, governed analytics foundation aligned with the cloud-migration strategy.
-- Banque Misr Digital Innovation (Banking), 2021 — Big Data Solution Architect. Cloudera platform with Confluent Kafka and Apache Flink, Impala Data Warehouse and HBase/Phoenix; real-time ingestion from 25 banking sources. Result: real-time banking operations and analytics over 25 unified sources.
+- Banque Misr Digital, One Bank (Banking), 2021 — Big Data Solution Architect. Cloudera platform with Confluent Kafka and Apache Flink, Impala Data Warehouse and HBase/Phoenix; real-time ingestion from 25 banking sources. Result: real-time banking operations and analytics over 25 unified sources.
 - Travel Intelligence Engine (Travel), 2019–2020 — Data / AI Solution Architect. Real-time, event-driven ML recommendation platform on Google Cloud (Pub/Sub, Cloud Functions, BigQuery, Terraform), deployed across World2Meet (ES), Viagens Abreu (PT), TUI (UK) and Yalago (Dubai). Result: measurable conversion uplift and sub-second model serving in production.
-- Brico Depôt Iberia (Kingfisher Group, Retail), 2020–2021 — Data Solution Architect. Serverless big data architecture on Google Cloud + Power BI with ML over SAP HANA Cloud, Magento and SQL. Result: forecasting, customer segmentation and optimized inventory in production.
+- Brico Depôt Iberia (Kingfisher Group, Retail), 2020–2021 — Lead Data Solution Architect. Serverless big data architecture on Google Cloud + Power BI with ML over SAP HANA Cloud, Magento and SQL. Result: forecasting, customer segmentation and optimized inventory in production.
 - Schneider Electric (Finance, France), 2022–2023 — Global Finance Data Architect. Collibra governance across ~60 systems (17 SAP ERP instances + SAP Central Finance). Result: unified, automated P&L and governance conventions adopted org-wide.
 - JumboDiset (Industrial), 2023–2024 — Data Architect / Data Engineer. End-to-end DWH & BI from scratch (PostgreSQL, Jedox EPM, dbt, Power BI). Result: first centralized analytics foundation for the group.
 - Japan Tobacco International (FMCG), 2013–2015 — Data & Analytics Solution Architect. Global OBIEE BI rollout (TME), 6,500+ users across Europe, US and Southeast Asia. Result: corporate BI standardized across 3 continents, replacing legacy tools.
-- Hotelbeds (Travel), 2015–2017 — Data Architect. Hortonworks Big Data platform integrating SAP, Oracle and operational systems, with QlikView as transversal BI. Result: consolidated end-to-end view of operations and finance.
-- World2Meet (Travel), 2018–2019 — Data Architect / Team Lead. Snowflake on Azure + dbt + Fivetran; SAP-based P&L automation with Qlik Sense. Result: real-time financial insight with far less manual reporting.
-- Fergus Hotels (Hospitality), 2015–2025 — Data/AI Solution Architect. Earlier engagement: serverless Google Cloud platform with Airflow (Composer) MLOps for demand forecasting and pricing optimization.
+- Hotelbeds (Travel), 2014–2019 — Data Architect. Hortonworks Big Data platform integrating SAP, Oracle and operational systems, with QlikView as transversal BI. Result: consolidated end-to-end view of operations and finance.
+- World2Meet (Travel), 2018–2022 — Data Architect / Team Lead. Snowflake on Azure + dbt + Fivetran; SAP-based P&L automation with Qlik Sense. Led the platform rollout across all business divisions. Result: real-time financial insight with far less manual reporting.
 
 ### Data & Analytics Engineer / Architect — SDG Consulting
 January 2011 – December 2012
