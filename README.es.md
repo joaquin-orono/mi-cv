@@ -131,7 +131,7 @@ Cuadro de Mando Integral corporativo de principio a fin con **300+ KPIs** en ~20
 **Schneider Electric** · Finanzas, Francia · `2022/2023`
 *Global Finance Data Architect*
 
-Arquitectura y unificación del dato financiero con gobierno **Collibra** sobre **~60 sistemas** (17 instancias SAP ERP + SAP Central Finance) y **900 compañías**.
+Arquitectura y unificación de la base del dato financiero con gobierno **Collibra** sobre **~60 sistemas** (17 instancias SAP ERP + SAP Central Finance) y **900 compañías**.
 **Resultado →** P&L unificado y automatizado; convenciones de gobierno adoptadas en toda la organización.
 
 </td>

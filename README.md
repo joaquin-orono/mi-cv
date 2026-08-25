@@ -131,7 +131,7 @@ End-to-end Corporate Balanced Scorecard with **300+ KPIs** across ~20 dashboards
 **Schneider Electric** · Finance, France · `2022/2023`
 *Global Finance Data Architect*
 
-Architected and unified Finance data with **Collibra** governance across **~60 systems** (17 SAP ERP instances + SAP Central Finance) and **900 companies**.
+Architected and unified Finance data foundation using **Collibra** governance across **~60 systems** (17 SAP ERP instances + SAP Central Finance) and **900 companies**.
 **Result →** Unified, automated P&L; governance conventions adopted org-wide.
 
 </td>
