@@ -5,7 +5,7 @@
 # Joaquin Oroño Bugnon
 **Data & AI Architect**
 
-15+ years turning business needs into end-to-end data platforms — now focused on deploying practical, monetizable AI inside organizations.
+20+ years turning business needs into end-to-end data platforms — now focused on deploying practical, monetizable AI inside organizations.
 
 [![Location](https://img.shields.io/badge/Barcelona-Spain-5b8db8?style=flat)](https://maps.google.com/?q=Barcelona,Spain)
 [![Email](https://img.shields.io/badge/joaquin.orono@gmail.com-d96b5a?style=flat&logo=gmail&logoColor=white)](mailto:joaquin.orono@gmail.com)
@@ -18,7 +18,7 @@
 
 ---
 
-> Data & AI Architect with **15+ years** bridging business needs and end-to-end data platform delivery for large corporations and digital businesses, **leading multiple parallel projects and multinational, multidisciplinary teams** toward a common goal. From my technical roots at **Oracle** and **SDG Group** to founding my own **practical knowledge lab: Mind**. Over the last two years I've focused on what truly delivers impact: **deploying practical, monetizable AI** inside organizations.
+> Data & AI Architect with **20+ years** bridging business needs and end-to-end data platform delivery for large corporations and digital businesses, **leading multiple parallel projects and multinational, multidisciplinary teams** toward a common goal. From my technical roots at **Oracle** and **SDG Group** to founding my own **practical knowledge lab: Mind**. Over the last two years I've focused on what truly delivers impact: **deploying practical, monetizable AI** inside organizations.
 
 I combine a solid technical background with a holistic, strategic view of the organization: scalable, AI-ready data architectures on serverless, cloud-native platforms, with a focus on governance, data democratization and agile delivery — so the business clearly sees the value.
 
@@ -28,7 +28,7 @@ I combine a solid technical background with a holistic, strategic view of the or
 
 | Clients | Projects | Years in data | Teams led |
 |:---:|:---:|:---:|:---:|
-| **20+** | **60+** | **15+** | **20+** |
+| **20+** | **100+** | **20+** | **20+** |
 
 ---
 

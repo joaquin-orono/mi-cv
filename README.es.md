@@ -5,7 +5,7 @@
 # Joaquin Oroño Bugnon
 **Arquitecto de Datos e IA**
 
-15+ años convirtiendo necesidades de negocio en plataformas de datos end-to-end — ahora centrado en desplegar IA práctica y monetizable dentro de las organizaciones.
+20+ años convirtiendo necesidades de negocio en plataformas de datos end-to-end — ahora centrado en desplegar IA práctica y monetizable dentro de las organizaciones.
 
 [![Ubicación](https://img.shields.io/badge/Barcelona-España-5b8db8?style=flat)](https://maps.google.com/?q=Barcelona,Spain)
 [![Email](https://img.shields.io/badge/joaquin.orono@gmail.com-d96b5a?style=flat&logo=gmail&logoColor=white)](mailto:joaquin.orono@gmail.com)
@@ -18,7 +18,7 @@
 
 ---
 
-> Arquitecto de Datos e IA con **15+ años** conectando las necesidades de negocio con la implementación integral de plataformas de datos para grandes corporaciones y negocios digitales, **liderando múltiples proyectos en paralelo y equipos multinacionales y multidisciplinares** hacia un objetivo común. Desde mis raíces en **Oracle** y **SDG Group** hasta fundar mi propio **laboratorio de conocimiento práctico: Mind**. En los últimos dos años me he centrado en lo que de verdad genera impacto: **desplegar IA práctica y monetizable** dentro de las organizaciones.
+> Arquitecto de Datos e IA con **20+ años** conectando las necesidades de negocio con la implementación integral de plataformas de datos para grandes corporaciones y negocios digitales, **liderando múltiples proyectos en paralelo y equipos multinacionales y multidisciplinares** hacia un objetivo común. Desde mis raíces en **Oracle** y **SDG Group** hasta fundar mi propio **laboratorio de conocimiento práctico: Mind**. En los últimos dos años me he centrado en lo que de verdad genera impacto: **desplegar IA práctica y monetizable** dentro de las organizaciones.
 
 Combino una sólida base técnica con una visión estratégica integral de la organización: diseño arquitecturas de datos escalables y *AI-ready* sobre plataformas serverless y cloud-native, con foco en gobierno del dato, democratización y entrega ágil — de forma que el negocio perciba el valor.
 
@@ -28,7 +28,7 @@ Combino una sólida base técnica con una visión estratégica integral de la or
 
 | Clientes | Proyectos | Años en datos | Equipos liderados |
 |:---:|:---:|:---:|:---:|
-| **20+** | **60+** | **15+** | **20+** |
+| **20+** | **100+** | **20+** | **20+** |
 
 ---
 

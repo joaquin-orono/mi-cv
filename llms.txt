@@ -1,6 +1,6 @@
 # Joaquin Oroño Bugnon — Data & AI Architect
 
-> Freelance, independent Data & AI Architect based in Barcelona, Spain, with 15+ years
+> Freelance, independent Data & AI Architect based in Barcelona, Spain, with 20+ years
 > bridging business needs and end-to-end data platform delivery for large corporations and
 > digital businesses. Available as a project partner to bring practical, monetizable AI into
 > organizations — remote, short trips accepted.
@@ -23,7 +23,7 @@ end-to-end data architecture and AI adoption: from strategy and scalable, AI-rea
 of LLMs inside the business. I lead multiple parallel projects and multinational, multidisciplinary
 teams toward a common goal.
 
-Why hire me for your project: 15+ years of delivery across travel, banking, retail, hospitality,
+Why hire me for your project: 20+ years of delivery across travel, banking, retail, hospitality,
 industry and government; equally comfortable with deep technical architecture and the strategic,
 business-value view that makes leadership see the return.
 
