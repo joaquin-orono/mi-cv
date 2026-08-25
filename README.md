@@ -26,9 +26,9 @@ I combine a solid technical background with a holistic, strategic view of the or
 
 ## Highlights
 
-| Clients | Projects | Years in data | Teams led |
+| Clients | Projects | Years in data | People led |
 |:---:|:---:|:---:|:---:|
-| **20+** | **100+** | **20+** | **20+** |
+| **20+** | **100+** | **20+** | **150+** |
 
 ---
 
@@ -148,11 +148,11 @@ Led the company's data, analytics & AI rollout end-to-end: **Mind Ocean** as Lak
 </td>
 <td width="50%" valign="top">
 
-**JumboDiset** · Industrial · `2023/2024`
+**Jumbo Group** · Industrial · `2023/2026`
 *Data & AI Architect*
 
-End-to-end DWH & BI from scratch: **PostgreSQL, Jedox EPM, dbt, Power BI**.
-**Result →** First centralized analytics foundation for the group.
+End-to-end DWH & BI from scratch (**PostgreSQL, Jedox EPM, dbt, Power BI**), then AI pilot in finance & sales combining **Power BI + Claude** + AI self-service.
+**Result →** First centralized analytics foundation; autonomous finance & sales teams, far less manual reporting.
 
 </td>
 </tr>
@@ -183,14 +183,13 @@ Serverless big-data architecture on GCP + Power BI with ML over SAP HANA Cloud, 
 
 <br/>
 
-- **Jumbogroup** · Industrial · `2026` — *AI Architect.* AI pilot in finance and sales combining Power BI + Claude + AI self-service. **Result:** finance & sales teams autonomous, far less manual reporting.
 - **Marugal** · Hospitality · `2025/2026` — *Lead Data Solution Architect.* Implemented **Mind Hotel Insights**, our solution built on BigQuery and Qlik, with end-to-end architecture across multiple source systems. **Result:** scalable, governed analytics foundation aligned with the cloud-migration strategy.
 - **Hoteles Silken** · Hospitality · `2024/2025` — *AI Data Architect / Engineer.* Implemented **Mind Hotel Insights**, our solution built on BigQuery and Qlik; assistant with Claude + MCP over BigQuery for real-time pricing, auto-applied to the channel manager; MLOps for demand forecasting. **Result:** pricing applied in real time; data democratized via conversational AI.
 - **Grupo Cursach** · Leisure · `2025` — *AI Architect / Data Engineer.* Implemented **Mind Finance Intelligence** and **Mind Sales Analytics**, our solutions built on BigQuery and Qlik; AI agent (Claude + MCP) for conversational treasury analysis. **Result:** treasury analyzed in natural language; Excel reports generated automatically.
 - **Banque Misr Digital (One Bank)** · Banking · `2021` — *Big Data Solution Architect.* Real-time platform on Cloudera with Kafka + Flink, Impala DWH and HBase/Phoenix. **Result:** real-time banking operations & analytics over 25 unified sources.
 - **Travel Intelligence Engine** · Travel · `2019/2020` — *Data / AI Solution Architect.* Real-time, event-driven ML recommendation platform on GCP (Pub/Sub, Cloud Functions, BigQuery). Deployed across World2Meet, Abreu, TUI & Yalago. **Result:** measurable conversion uplift and sub-second response in production.
-- **World2Meet** · Travel · `2018/2022` — *Data Architect / Team Lead.* Qlik Sense for Finance (SAP P&L), then Snowflake on Azure + dbt + Fivetran. Led the analytics rollout across all business divisions and the creation of the data department, unifying sources into a single view of the company. **Result:** a data-driven organization, with real-time financial insight and far less manual reporting.
-- **Hotelbeds** · Travel · `2014/2019` — *Data Architect.* Multiple projects: Hortonworks Big Data platform integrating SAP, Oracle and operational systems; BI Publisher as core application for transactional reporting; Oracle Finance Management for financial consolidation; Qlik as corporate dashboarding tool; support in creating the data governance area. **Result:** consolidated end-to-end view of operations and finance.
+- **World2Meet** · Travel · `2018/2022` — *Data Architect / Team Lead.* Led the analytics rollout across all business divisions and the creation of the data department, unifying sources into a single view of the company. **Result:** a data-driven organization, with real-time financial insight and far less manual reporting.
+- **Hotelbeds** · Travel · `2014/2019` — *Data Architect.* Multiple projects: BI Publisher as core application for transactional reporting; Oracle Finance Management for financial consolidation; Qlik as corporate dashboarding tool; support in creating the data governance area. **Result:** consolidated end-to-end view of operations and finance.
 
 </details>
 
