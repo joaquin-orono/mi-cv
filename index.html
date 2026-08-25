@@ -249,6 +249,7 @@
   @media print{
     body{background:#fff}
     header.hero::before,footer::before{display:none}
+    .gt{background:none;color:#1e3a8a;-webkit-text-fill-color:#1e3a8a}
     .bar,.controls,#printBtn,.cc{display:none!important}
     .reveal{opacity:1!important;transform:none!important}
     .card,.job,.stat{break-inside:avoid}
@@ -346,14 +347,6 @@
       <div class="stat"><div class="n gt">150+</div><div class="l">People led</div></div>
     </div>
   </section>
-  <section class="reveal"><div class="kicker"><span class="ic">🧩</span><h2>Tech Stack</h2></div>
-    <div class="techgroup"><h3>Cloud &amp; Infrastructure</h3><div class="pills"><span class="pill">Google Cloud</span><span class="pill">Microsoft Azure</span><span class="pill">Terraform</span><span class="pill">GitHub</span></div></div>
-    <div class="techgroup"><h3>Data Platforms &amp; Warehousing</h3><div class="pills"><span class="pill">BigQuery</span><span class="pill">Snowflake</span><span class="pill">Databricks</span><span class="pill">PostgreSQL</span><span class="pill">Cloudera</span><span class="pill">Oracle</span><span class="pill">Impala</span><span class="pill">SAP BW/HANA</span></div></div>
-    <div class="techgroup"><h3>Ingestion · Transformation · Orchestration</h3><div class="pills"><span class="pill">dbt</span><span class="pill">Fivetran</span><span class="pill">Airbyte</span><span class="pill">Talend Stitch</span><span class="pill">Airflow / Composer</span><span class="pill">Dataform</span><span class="pill">Jedox</span></div></div>
-    <div class="techgroup"><h3>Streaming &amp; Big Data</h3><div class="pills"><span class="pill">Confluent Kafka</span><span class="pill">Apache Flink</span><span class="pill">Pub/Sub</span><span class="pill">Hadoop</span><span class="pill">Hortonworks</span><span class="pill">HBase / Phoenix</span></div></div>
-    <div class="techgroup"><h3>AI / ML / LLM</h3><div class="pills"><span class="pill">Anthropic Claude</span><span class="pill">Model Context Protocol (MCP)</span><span class="pill">MLOps</span><span class="pill">Python</span><span class="pill">Machine Learning</span></div></div>
-    <div class="techgroup"><h3>BI &amp; Governance</h3><div class="pills"><span class="pill">Power BI</span><span class="pill">Qlik</span><span class="pill">Tableau</span><span class="pill">Looker</span><span class="pill">Collibra</span></div></div>
-  </section>
   <section class="reveal"><div class="kicker"><span class="ic">💼</span><h2>Experience</h2></div>
     <div class="tl">
       <div class="job"><h3>Interim Head of Data — <span class="co"><a href="https://meetingdoctors.com/" target="_blank" rel="noopener">Meeting Doctors</a></span></h3><div class="when">Dec 2025 – Present</div><p>Leading the data area and modernizing the stack to enable AI monetization and deployment across the organization (digital health / medical-process digitalization).</p></div>
@@ -404,6 +397,14 @@
     <div class="eduitem"><span class="y">2014</span><span><span class="t">Project Management Professional (PMP)</span> <span class="s">· PMI</span></span></div>
     <div class="eduitem"><span class="y">2020</span><span><span class="t">Professional Scrum Master</span> <span class="s">· Scrum.org</span></span></div>
     <div class="eduitem"><span class="y">2021</span><span><span class="t">Cloud Digital Leader</span> <span class="s">· Google</span></span></div>
+  </section>
+  <section class="reveal"><div class="kicker"><span class="ic">🧩</span><h2>Tech Stack</h2></div>
+    <div class="techgroup"><h3>Cloud &amp; Infrastructure</h3><div class="pills"><span class="pill">Google Cloud</span><span class="pill">Microsoft Azure</span><span class="pill">Terraform</span><span class="pill">GitHub</span></div></div>
+    <div class="techgroup"><h3>Data Platforms &amp; Warehousing</h3><div class="pills"><span class="pill">BigQuery</span><span class="pill">Snowflake</span><span class="pill">Databricks</span><span class="pill">PostgreSQL</span><span class="pill">Cloudera</span><span class="pill">Oracle</span><span class="pill">Impala</span><span class="pill">SAP BW/HANA</span></div></div>
+    <div class="techgroup"><h3>Ingestion · Transformation · Orchestration</h3><div class="pills"><span class="pill">dbt</span><span class="pill">Fivetran</span><span class="pill">Airbyte</span><span class="pill">Talend Stitch</span><span class="pill">Airflow / Composer</span><span class="pill">Dataform</span><span class="pill">Jedox</span></div></div>
+    <div class="techgroup"><h3>Streaming &amp; Big Data</h3><div class="pills"><span class="pill">Confluent Kafka</span><span class="pill">Apache Flink</span><span class="pill">Pub/Sub</span><span class="pill">Hadoop</span><span class="pill">Hortonworks</span><span class="pill">HBase / Phoenix</span></div></div>
+    <div class="techgroup"><h3>AI / ML / LLM</h3><div class="pills"><span class="pill">Anthropic Claude</span><span class="pill">Model Context Protocol (MCP)</span><span class="pill">MLOps</span><span class="pill">Python</span><span class="pill">Machine Learning</span></div></div>
+    <div class="techgroup"><h3>BI &amp; Governance</h3><div class="pills"><span class="pill">Power BI</span><span class="pill">Qlik</span><span class="pill">Tableau</span><span class="pill">Looker</span><span class="pill">Collibra</span></div></div>
   </section>
 </main>
 
@@ -570,13 +571,13 @@ function render(){
   let html="";
   html+=sec("✨","s_about",d.summary[lang].map(p=>`<p class="lead">${p}</p>`).join(""));
   html+=sec("📊","s_numbers",`<div class="stats">${d.stats[lang].map(s=>`<div class="stat"><div class="n gt">${s[0]}</div><div class="l">${s[1]}</div></div>`).join("")}</div>`);
-  html+=sec("🧩","s_tech",d.tech[lang].map(g=>`<div class="techgroup"><h3>${g[0]}</h3><div class="pills">${g[1].map(p=>`<span class="pill">${p}</span>`).join("")}</div></div>`).join(""));
   html+=sec("💼","s_exp",`<div class="tl">${d.exp[lang].map(j=>`<div class="job"><h3>${j[0]} — <span class="co">${j[1]}</span></h3><div class="when">${j[2]}</div><p>${j[3]}</p></div>`).join("")}</div>`);
   html+=sec("🚀","s_feat",`<div class="grid">${d.feat[lang].map(c=>`<div class="card"><div class="top"><h3>${c[0]}</h3><span class="ind">${c[1]}</span></div><div class="yr">${c[2]}</div><div class="rolep">${c[3]}</div><p>${c[4]}</p><div class="res"><span>→</span> ${c[5]}</div></div>`).join("")}</div>`
     +`<details><summary>${u.moreFree}</summary><ul>${d.moreFree[lang].map(li=>`<li>${li}</li>`).join("")}</ul></details>`
     +`<details><summary>${u.moreEarly}</summary><ul>${d.moreEarly[lang].map(li=>`<li>${li}</li>`).join("")}</ul></details>`);
   html+=sec("🎯","s_skills",`<div class="twocol">${d.skills[lang].map(b=>`<div class="skillblock"><h3>${b[0]}</h3><ul>${b[1].map(s=>`<li>${s}</li>`).join("")}</ul></div>`).join("")}</div>`);
   html+=sec("🎓","s_edu",d.edu[lang].map(e=>`<div class="eduitem"><span class="y">${e[0]}</span><span><span class="t">${e[1]}</span> <span class="s">· ${e[2]}</span></span></div>`).join(""));
+  html+=sec("🧩","s_tech",d.tech[lang].map(g=>`<div class="techgroup"><h3>${g[0]}</h3><div class="pills">${g[1].map(p=>`<span class="pill">${p}</span>`).join("")}</div></div>`).join(""));
 
   document.getElementById("app").innerHTML=html;
   observe();
