@@ -131,7 +131,7 @@ Cuadro de Mando Integral corporativo de principio a fin con **300+ KPIs** en ~20
 **Schneider Electric** · Finanzas, Francia · `2022/2023`
 *Global Finance Data Architect*
 
-Gobierno con Collibra sobre **~60 sistemas** (17 instancias SAP ERP + SAP Central Finance).
+Arquitectura y unificación del dato financiero con gobierno **Collibra** sobre **~60 sistemas** (17 instancias SAP ERP + SAP Central Finance) y **900 compañías**.
 **Resultado →** P&L unificado y automatizado; convenciones de gobierno adoptadas en toda la organización.
 
 </td>
@@ -139,10 +139,10 @@ Gobierno con Collibra sobre **~60 sistemas** (17 instancias SAP ERP + SAP Centra
 <tr>
 <td width="50%" valign="top">
 
-**Fergus Hotels** · Hostelería · `2015/2026`
-*Data & AI Head*
+**Fergus Hotels** · Hostelería · `2015/Actualidad`
+*Head of Data & Analytics*
 
-Lideré el despliegue del dato y la IA de punta a punta: plataforma serverless en GCP con **MLOps en Airflow/Composer** para demanda y precios, y después el despliegue de IA en toda la compañía pilotando **Claude** en ventas, finanzas y operaciones.
+Lideré el despliegue del dato, la analítica y la IA de punta a punta: **Mind Ocean** como Lakehouse, **Qlik** como herramienta de BI y **Claude** para productividad personal y automatización corporativa. Optimización de ventas, revenue, demanda y precios, finanzas y operaciones.
 **Resultado →** IA operativa en las áreas core, con decisiones asistidas en el día a día.
 
 </td>
@@ -184,9 +184,9 @@ Arquitectura big data serverless en GCP + Power BI con ML sobre SAP HANA Cloud, 
 <br/>
 
 - **Jumbogroup** · Industrial · `2026` — *AI Architect.* Pilotaje de IA en finanzas y ventas combinando Power BI + Claude + autoservicio de IA. **Resultado:** equipos de finanzas y ventas autónomos, mucho menos reporting manual.
-- **Marugal** · Hostelería · `2025/2026` — *Lead Data Solution Architect.* DWH cloud en BigQuery con arquitectura integral sobre múltiples sistemas origen; BI sobre Qlik. **Resultado:** base analítica escalable y gobernada, alineada con la migración cloud.
-- **Hoteles Silken** · Hostelería · `2024/2025` — *AI Data Architect / Engineer.* Data stack con IA desde cero en GCP; asistente con Claude + MCP sobre BigQuery para pricing en tiempo real, aplicado al channel manager; MLOps para forecasting de demanda. **Resultado:** pricing aplicado en tiempo real; dato democratizado vía IA conversacional.
-- **Grupo Cursach** · Ocio · `2025` — *AI Architect / Data Engineer.* Data lake financiero en GCP; agente de IA (Claude + MCP) para análisis conversacional de tesorería. **Resultado:** tesorería en lenguaje natural; informes en Excel generados solos.
+- **Marugal** · Hostelería · `2025/2026` — *Lead Data Solution Architect.* Implantamos **Mind Hotel Insights**, nuestra solución basada en BigQuery y Qlik, con arquitectura integral sobre múltiples sistemas origen. **Resultado:** base analítica escalable y gobernada, alineada con la migración cloud.
+- **Hoteles Silken** · Hostelería · `2024/2025` — *AI Data Architect / Engineer.* Implantamos **Mind Hotel Insights**, nuestra solución basada en BigQuery y Qlik; asistente con Claude + MCP sobre BigQuery para pricing en tiempo real, aplicado al channel manager; MLOps para forecasting de demanda. **Resultado:** pricing aplicado en tiempo real; dato democratizado vía IA conversacional.
+- **Grupo Cursach** · Ocio · `2025` — *AI Architect / Data Engineer.* Implantamos **Mind Finance Intelligence** y **Mind Sales Analytics**, nuestras soluciones basadas en BigQuery y Qlik; agente de IA (Claude + MCP) para análisis conversacional de tesorería. **Resultado:** tesorería en lenguaje natural; informes en Excel generados solos.
 - **Banque Misr Digital (One Bank)** · Banca · `2021` — *Big Data Solution Architect.* Plataforma en tiempo real sobre Cloudera con Kafka + Flink, DWH Impala y HBase/Phoenix. **Resultado:** operaciones bancarias y analítica en tiempo real sobre 25 fuentes unificadas.
 - **Travel Intelligence Engine** · Travel · `2019/2020` — *Data / AI Solution Architect.* Plataforma de recomendación ML event-driven en tiempo real sobre GCP. Desplegada en World2Meet, Abreu, TUI y Yalago. **Resultado:** mejora medible de la conversión y respuesta sub-segundo en producción.
 - **World2Meet** · Travel · `2018/2022` — *Data Architect / Team Lead.* Qlik Sense para Finanzas (P&L de SAP), y después Snowflake en Azure + dbt + Fivetran. Lideré el despliegue de la herramienta en todas las divisiones de negocio. **Resultado:** insights financieros en tiempo real con mucho menos esfuerzo manual.
